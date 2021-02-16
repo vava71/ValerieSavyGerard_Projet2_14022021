@@ -1,0 +1,23 @@
+@font-face {
+    font-family: raleway;
+    src: url(https://fonts.google.com/specimen/Raleway?preview.text_type=custom);
+}
+
+/*.menu {
+	border: 3px solid black;
+	margin: 2px;
+}*/
+
+.blue{
+    border-color: #0065fc;
+}
+
+.black{
+    border-color: black;
+
+}
+
+nav li {
+	list-style: none;
+	padding-left: 30px;
+}
