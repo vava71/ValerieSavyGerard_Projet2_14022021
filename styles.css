@@ -25,10 +25,6 @@ header {
   justify-content: space-between;
 }
 
-nav {
-  display: flex;
-  align-items: space-between;
-}
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -39,9 +35,11 @@ nav li {
   padding-left: 30px;
   font-size: 10px;
 }
+
 p {
   font-size: small;
 }
+
 h5,
 p {
   line-height: 0em;
@@ -52,11 +50,86 @@ p {
 button {
   background-color: #0065fc;
   line-height: 20px;
+  width: 10em;
   border-radius: 15px;
   color: white;
+  outline: none;
 }
-
 label {
   background-color: #f2f2f2;
   line-height: 20px;
+  width: 10em;
+}
+
+input {
+  outline: none;
+  line-height: 20px;
+  width: 10em;
+  border: 1px black solid;
+}
+/* Filtres */
+
+#Filtres {
+  display: flex;
+}
+
+#Filtres ul {
+  display: flex;
+  list-style: none;
+}
+
+#Filtres li {
+  border: 0.5px black solid;
+  display: inline-block;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  height: 50px;
+}
+
+#Filtres i {
+  background-color: white;
+  color: #0065fc;
+}
+
+#Filtres h4 {
+  display: flex;
+}
+
+i {
+  color: white;
+  background-color: #0065fc;
+}
+
+/* Hébergements à Marseille */
+
+#Hebergements {
+  display: flex;
+  box-sizing: content-box;
+  border-radius: 10px;
+  max-width: 70%;
+  max-height: 35%;
+  border: none 10px;
+  background-color: #f2f2f2;
+}
+
+#Hebergements li {
+  display: flex;
+  box-sizing: border-box;
+  list-style: none;
+  padding: 25px 15px 25px 15px;
+}
+
+#Hebergements img {
+  height: 80px;
+  width: 150px;
+  display: flex;
+  border-radius: 15px 15px 0 0;
+  border: solid white 5px;
+}
+
+#Hebergements div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
