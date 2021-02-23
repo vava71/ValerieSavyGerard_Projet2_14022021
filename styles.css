@@ -72,8 +72,7 @@ input {
 }
 
 #Filtres li {
-  border: 30px black solid;
-  border-width: 1px;
+  border: 1px black solid;
   width: 200px;
   border-radius: 10px;
   text-align: center;
@@ -92,63 +91,61 @@ input {
 
 /* Hébergements à Marseille */
 
-section {
+#Hebergements {
+  box-sizing: border-box;
   display: flex;
+  width: 60%;
+  height: 20%;
+  background-color: #f2f2f2;
+  border-radius: 10px;
 }
 
-#Hebergements {
+#Hebergements .photos {
   display: flex;
-  box-sizing: border-box;
-  height: 75%;
-  width: 50%;
-  background-color: #f2f2f2;
+  background-color: white;
   border-radius: 10px;
 }
 
 #Hebergements img {
-  height: 50%;
-  width: 150px;
+  box-sizing: content-box;
+  display: flex;
+  height: 50px;
+  width: 100px;
   border-radius: 10px 10px 0 0;
 }
 
-.Hebergements .photos {
-  box-sizing: content-box;
-  width: 32%;
-  padding-top: 1%;
-  background-color: white;
-  border-radius: 10px;
-}
 .Hebergements .fa {
   color: #0065fc;
-  background-color: white;
   font-size: xx-small;
 }
 .descriptions {
   color: black;
+  font-size: small;
 }
 
 /* Les plus populaires */
 
-aside {
+#lespluspopulaires {
   box-sizing: border-box;
-  width: 250px;
-  margin-left: 80%;
-  margin-right: 25%;
   background-color: #f2f2f2;
   border-radius: 10px;
-  margin-bottom: 45%;
+  height: 300px;
+  width: 200px;
 }
 
-.populaires .photos {
-  box-sizing: content-box;
-  display: flex;
-  width: 10px;
+#lesplus.populaires {
+  width: 120px;
+  padding-top: 1%;
   background-color: white;
   border-radius: 10px;
 }
 
+.populaires.img {
+  box-sizing: content-box;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px 10px 0 0;
+}
 .populaires .fa {
   color: #0065fc;
-  background-color: white;
-  font-size: xx-small;
 }
