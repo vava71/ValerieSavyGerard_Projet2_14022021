@@ -3,28 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <title>Reservia</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width= device-width, initial-scale = 1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.google.com/specimen/Raleway?preview.text_type=custom"
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
       rel="stylesheet"
-      type="text/css"
     />
-
     <script
       src="https://kit.fontawesome.com/a31724f66c.js"
       crossorigin="anonymous"
     ></script>
   </head>
-  <Header>
+  <body>
+    <header>
       <img src="images/logo/Reservia@3x.png" alt="logo reservia" />
-  </Header>
-  <nav>
-    <ul>
-      <li><a href="#Hébergements">Hébergements</a></li>
-      <li><a href="#Activités">Activités</a></li>
-      <li><a href="#S&#039;inscrire">S&#039;inscrire</a></li>
-    </ul>
-  </nav
+    </header>
 
+    <nav>
+      <ul>
+        <li>
+          <a style="text-decoration: none" href="#Hébergements"
+            ><span style="color: #0065fc">Hébergements</span></a
+          >
+        </li>
+        <li>
+          <a style="text-decoration: none" href="#Activités"
+            ><span style="color: black">Activités</span></a
+          >
+        </li>
+        <li>
+          <a style="text-decoration: none" href="#S&#039;inscrire"
+            ><span style="color: #0065fc">S&#039;inscrire</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <div id="recherche">
+      <h4>
+        <strong>Trouvez votre Hébergement pour des vacances de rêve</strong>
+      </h4>
+      <h5>En plein centre ville ou en pleine nature</h5>
+    </div>
+    <div id="iconinputbutton">
+      <i class="fas fa-map-marker-alt"></i>
+      <input
+        type="search"
+        id="site-search"
+        name="q"
+        aria-label="Search through site content"
+      />
+      <button>Recherche</button>
+    </div>
+  </body>
 </html>
