@@ -1,57 +1,40 @@
 * {
-  margin-left: 1%;
-  margin-right: 1%;
+  box-sizing: border-box;
 }
 
-/* Head */
-
+body {
+  margin: 5px;
+  padding: 5px;
+}
+a:hover {
+  background-color: red;
+}
 @font-face {
   src: url(https://fonts.googleapis.com/css2?family=Raleway&display=swap);
   font-family: "Raleway", sans-serif;
   font-weight: normal;
   font-style: normal;
 }
-
-/* Header */
-
 img {
-  border: 1px solid red;
   margin-top: 50px;
   width: 10%;
   height: 10%;
 }
 
-/* Nav */
-
-nav ul {
+nav {
   display: flex;
-  padding-left: 75%;
+  list-style-type: none;
+  margin-left: 55%;
+  justify-content: space-between;
   justify-content: flex-end;
-  justify-content: space-around;
 }
 
-nav li {
-  display: flex;
-  border: 1px solid green;
-  padding: 1em;
-  display: block;
-  justify-content: flex-end;
-  font-size: medium;
-}
-
-/* section */
-
-#recherche {
-  border: 1px solid rgb(50, 17, 141);
-  width: 60%;
-  height: 80px;
-  line-height: 2px;
-}
+/* section boutton de recherche */
 
 #iconinputbutton {
   width: 60%;
   height: 80px;
-  border: 1px solid rgb(226, 75, 138);
+
   display: flex;
   justify-content: start;
   height: 35px;
@@ -67,78 +50,63 @@ nav li {
 
 button {
   border-radius: 0px 10px 10px 0px;
-  width: 25%;
+  width: 120%;
   height: 35px;
   background-color: #0065fc;
   color: white;
 }
 
 input {
-  width: 25%;
+  width: 120%;
   height: 35px;
 }
-/* filtres */
 
-#Filtres {
+.informations {
   display: flex;
-  justify-content: space-between;
   justify-content: flex-start;
   align-items: baseline;
 }
-#Filtres .fas {
+
+/* hébergements Marseille */
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#conteneurhebergements {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  background-color: #f2f2f2;
+}
+
+figcaption {
+  font-size: xx-small;
+}
+
+figcaption .fas {
   color: #0065fc;
 }
 
-#money {
-  font-size: small;
-  padding-left: 1%;
-  border: 1px solid #f2f2f2;
-  border-radius: 10px 10px 10px 10px;
-  height: 25px;
-  width: 15%;
-}
-
-#fami {
-  font-size: small;
-  padding-left: 1%;
-  border: 1px solid #f2f2f2;
-  border-radius: 10px 10px 10px 10px;
-  height: 25px;
-  width: 10%;
-}
-
-#roman {
-  font-size: small;
-  padding-left: 1%;
-  border: 1px solid #f2f2f2;
-  border-radius: 10px 10px 10px 10px;
-  height: 25px;
-  width: 15%;
-}
-
-#ani {
-  font-size: small;
-  padding-left: 1%;
-  border: 1px solid #f2f2f2;
-  border-radius: 10px 10px 10px 10px;
-  height: 25px;
-  width: 18%;
-}
-
-#information {
+#conteneurpopulaires {
   display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
+  justify-content: flex-end;
+  background-color: #f2f2f2;
+  flex-direction: column;
 }
 
-#information .fas {
-  border-radius: 50px;
-  width: 7px;
+#conteneurpopulaires figure img figcaption {
+  display: flex;
+  align-items: flex-end;
 }
 
-/* hébergements */
-#hebergements .hebergementsmarseille {
-  order: 1;
-  flex: 1;
-  margin-right: 0;
+#conteneurhebergements#conteneurpopulaires {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer p {
+  font-size: small;
 }
