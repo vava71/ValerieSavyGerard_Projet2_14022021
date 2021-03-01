@@ -1,6 +1,6 @@
 * {
-  margin-left: 0.5%;
-  margin-right: 0.5%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 /* Head */
@@ -36,8 +36,10 @@ nav li {
   padding: 1em;
   display: block;
   justify-content: flex-end;
-  font-size: x-small;
+  font-size: medium;
 }
+
+/* section */
 
 #recherche {
   border: 1px solid rgb(50, 17, 141);
@@ -55,23 +57,88 @@ nav li {
   height: 35px;
 }
 
-i {
+#iconinputbutton i {
   border-radius: 10px 0px 0px 10px;
   text-align: center;
   background-color: #f2f2f2;
-  width: 5%;
+  width: 10%;
   height: 35px;
 }
 
 button {
   border-radius: 0px 10px 10px 0px;
-  width: 15%;
+  width: 25%;
   height: 35px;
   background-color: #0065fc;
   color: white;
 }
 
 input {
-  width: 20%;
+  width: 25%;
   height: 35px;
+}
+/* filtres */
+
+#Filtres {
+  display: flex;
+  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+#Filtres .fas {
+  color: #0065fc;
+}
+
+#money {
+  font-size: small;
+  padding-left: 1%;
+  border: 1px solid #f2f2f2;
+  border-radius: 10px 10px 10px 10px;
+  height: 25px;
+  width: 15%;
+}
+
+#fami {
+  font-size: small;
+  padding-left: 1%;
+  border: 1px solid #f2f2f2;
+  border-radius: 10px 10px 10px 10px;
+  height: 25px;
+  width: 10%;
+}
+
+#roman {
+  font-size: small;
+  padding-left: 1%;
+  border: 1px solid #f2f2f2;
+  border-radius: 10px 10px 10px 10px;
+  height: 25px;
+  width: 15%;
+}
+
+#ani {
+  font-size: small;
+  padding-left: 1%;
+  border: 1px solid #f2f2f2;
+  border-radius: 10px 10px 10px 10px;
+  height: 25px;
+  width: 18%;
+}
+
+#information {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+#information .fas {
+  border-radius: 50px;
+  width: 7px;
+}
+
+/* hébergements */
+#hebergements .hebergementsmarseille {
+  order: 1;
+  flex: 1;
+  margin-right: 0;
 }
