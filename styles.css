@@ -3,8 +3,8 @@
 }
 
 body {
-  margin: 5px;
-  padding: 5px;
+  margin: 10px;
+  padding: 10px;
 }
 a:hover {
   background-color: red;
@@ -23,10 +23,14 @@ img {
 
 nav {
   display: flex;
-  list-style-type: none;
-  margin-left: 55%;
-  justify-content: space-between;
+  padding-left: 75%;
   justify-content: flex-end;
+}
+.conteneur-flex {
+  display: flex;
+  flex-direction: row;
+
+  list-style-type: none;
 }
 
 /* section boutton de recherche */
@@ -34,7 +38,6 @@ nav {
 #iconinputbutton {
   width: 60%;
   height: 80px;
-
   display: flex;
   justify-content: start;
   height: 35px;
@@ -60,6 +63,22 @@ input {
   width: 120%;
   height: 35px;
 }
+/* Filtres */
+
+#filtres {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+#filtres i {
+  font-size: small;
+  padding-left: 1%;
+  border: 1px solid #f2f2f2;
+  border-radius: 10px 10px 10px 10px;
+  height: 25px;
+  width: 115%;
+}
 
 .informations {
   display: flex;
@@ -69,6 +88,12 @@ input {
 
 /* hébergements Marseille */
 
+#hebergement {
+  display: flex;
+  width: 900px;
+  height: 200px;
+}
+
 img {
   width: 100px;
   height: 100px;
@@ -76,10 +101,14 @@ img {
 }
 
 #conteneurhebergements {
-  display: flex;
+  display: inline-block;
+  align-items: flex-end;
+  width: 700px;
+  height: 600px;
   justify-content: flex-start;
   flex-wrap: wrap;
   background-color: #f2f2f2;
+  border-radius: 10px 10px 10px 10px;
 }
 
 figcaption {
@@ -90,11 +119,15 @@ figcaption .fas {
   color: #0065fc;
 }
 
+/* hébergements populaires */
+
 #conteneurpopulaires {
-  display: flex;
+  display: inline-block;
+  width: 900px;
   justify-content: flex-end;
   background-color: #f2f2f2;
   flex-direction: column;
+  border-radius: 10px 10px 10px 10px;
 }
 
 #conteneurpopulaires figure img figcaption {
@@ -102,11 +135,45 @@ figcaption .fas {
   align-items: flex-end;
 }
 
-#conteneurhebergements#conteneurpopulaires {
+/* Activités à Marseille */
+
+#conteneuractivites {
+  display: flex;
+  align-items: center;
+  float: inline-end;
+}
+
+.case1 img {
+  width: 250px;
+  height: 250px;
+}
+
+.case2 img {
+  display: flex;
+
+  width: 150px;
+  height: 90px;
+}
+
+.case3 img {
+  width: 250px;
+  height: 250px;
+}
+
+.case4 img {
+  width: 150px;
+  height: 90px;
+}
+
+/* footer */
+
+#footer {
   display: flex;
   justify-content: space-between;
 }
-
 #footer p {
-  font-size: small;
+  font-size: x-small;
+}
+h4 {
+  line-height: 2%;
 }
