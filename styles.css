@@ -3,8 +3,8 @@
 }
 
 body {
-  margin: 10px;
-  padding: 10px;
+  margin: 15px;
+  padding: 15px;
 }
 a:hover {
   background-color: red;
@@ -88,51 +88,60 @@ input {
 
 /* hébergements Marseille */
 
-#hebergement {
+.conteneurhebergements {
   display: flex;
-  width: 900px;
-  height: 200px;
-}
-
-img {
-  width: 100px;
-  height: 100px;
-  border-radius: 10px 10px 0px 0px;
-}
-
-#conteneurhebergements {
-  display: inline-block;
-  align-items: flex-end;
+  flex-direction: column;
   width: 700px;
-  height: 600px;
+  height: 450px;
   justify-content: flex-start;
   flex-wrap: wrap;
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
 }
-
+.conteneurhebergements figure {
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  width: 160px;
+}
 figcaption {
   font-size: xx-small;
 }
-
+.vignette img {
+  width: 150px;
+  height: 100px;
+  border-radius: 10px 10px 0px 0px;
+}
 figcaption .fas {
   color: #0065fc;
 }
 
 /* hébergements populaires */
 
-#conteneurpopulaires {
-  display: inline-block;
-  width: 900px;
+.conteneurpopulaires {
+  display: flex;
+  align-items: center;
+  width: 300px;
   justify-content: flex-end;
   background-color: #f2f2f2;
   flex-direction: column;
   border-radius: 10px 10px 10px 10px;
 }
 
-#conteneurpopulaires figure img figcaption {
+.conteneurpopulaires figure {
   display: flex;
   align-items: flex-end;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  width: 180px;
+}
+
+.conteneurpopulaires .etiquette img {
+  width: 90px;
+  height: 110px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: white;
+  border-radius: 10px 0px 0px 10px;
+  
 }
 
 /* Activités à Marseille */
@@ -144,23 +153,26 @@ figcaption .fas {
 }
 
 .case1 img {
+  display
+  border-radius: 10px 10px 0px 0px;
   width: 250px;
   height: 250px;
 }
 
 .case2 img {
-  display: flex;
-
+  border-radius: 10px 10px 0px 0px;
   width: 150px;
   height: 90px;
 }
 
 .case3 img {
+  border-radius: 10px 10px 0px 0px;
   width: 250px;
   height: 250px;
 }
 
 .case4 img {
+  border-radius: 10px 10px 0px 0px;
   width: 150px;
   height: 90px;
 }
@@ -169,8 +181,11 @@ figcaption .fas {
 
 #footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  justify-content: space-around;
+  background-color: #f2f2f2;
 }
+
 #footer p {
   font-size: x-small;
 }
