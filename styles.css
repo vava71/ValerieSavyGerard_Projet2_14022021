@@ -1,194 +1,103 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 15px;
-  padding: 15px;
-}
-a:hover {
-  background-color: red;
-}
 @font-face {
   src: url(https://fonts.googleapis.com/css2?family=Raleway&display=swap);
   font-family: "Raleway", sans-serif;
   font-weight: normal;
   font-style: normal;
+  color: black;
+  display: flex;
 }
-img {
-  margin-top: 50px;
-  width: 10%;
-  height: 10%;
+a:hover {
+  color: #0065fc;
 }
+body {
+  margin: 0px;
+  padding: 5%;
+}
+
+/* Header */
 
 nav {
   display: flex;
-  padding-left: 75%;
   justify-content: flex-end;
+  justify-content: space-between;
+  padding-left: 55%;
 }
-.conteneur-flex {
+
+nav a {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+}
+
+/* iconinputButton */
+
+.iconinputButton {
   display: flex;
   flex-direction: row;
-
-  list-style-type: none;
+  justify-content: flex-start;
 }
 
-/* section boutton de recherche */
-
-#iconinputbutton {
-  width: 60%;
-  height: 80px;
-  display: flex;
-  justify-content: start;
-  height: 35px;
-}
-
-#iconinputbutton i {
-  border-radius: 10px 0px 0px 10px;
-  text-align: center;
+.iconinputButton i {
   background-color: #f2f2f2;
-  width: 10%;
-  height: 35px;
+  border-radius: 10px 0px 0px 10px;
+  width: 3em;
+  height: 2em;
+  text-align: center;
 }
-
-button {
+.iconinputButton button {
   border-radius: 0px 10px 10px 0px;
-  width: 120%;
-  height: 35px;
+  width: 7em;
+  height: 2em;
+  border: none;
   background-color: #0065fc;
   color: white;
 }
-
-input {
-  width: 120%;
-  height: 35px;
+.iconinputButton input {
+  border: none;
+  height: 2em;
 }
+
 /* Filtres */
 
-#filtres {
+.filtres {
   display: flex;
-  justify-content: space-between;
-  width: 70%;
-}
-
-#filtres i {
-  font-size: small;
-  padding-left: 1%;
-  border: 1px solid #f2f2f2;
-  border-radius: 10px 10px 10px 10px;
-  height: 25px;
-  width: 115%;
-}
-
-.informations {
-  display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
-}
-
-/* hébergements Marseille */
-
-.conteneurhebergements {
-  display: flex;
-  flex-direction: column;
-  width: 700px;
-  height: 450px;
-  justify-content: flex-start;
   flex-wrap: wrap;
-  background-color: #f2f2f2;
-  border-radius: 10px 10px 10px 10px;
 }
-.conteneurhebergements figure {
-  background-color: white;
-  border-radius: 10px 10px 10px 10px;
-  width: 160px;
+.filtres p {
+  margin: 8px 20px 0 0;
+  line-height: 50px;
+  font-weight: bold;
 }
-figcaption {
-  font-size: xx-small;
+.filtres i {
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+  padding-top: 12px;
+  text-align: center;
+  background: #deebff;
+  border-radius: 50%;
 }
-.vignette img {
-  width: 150px;
-  height: 100px;
-  border-radius: 10px 10px 0px 0px;
+.filtres ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
 }
-figcaption .fas {
+.filtres li {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding-right: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+.filtres a {
+  text-decoration: none;
+  color: black;
+}
+.filtres a:hover {
   color: #0065fc;
 }
 
-/* hébergements populaires */
-
-.conteneurpopulaires {
-  display: flex;
-  align-items: center;
-  width: 300px;
-  justify-content: flex-end;
-  background-color: #f2f2f2;
-  flex-direction: column;
-  border-radius: 10px 10px 10px 10px;
-}
-
-.conteneurpopulaires figure {
-  display: flex;
-  align-items: flex-end;
-  background-color: white;
-  border-radius: 10px 10px 10px 10px;
-  width: 180px;
-}
-
-.conteneurpopulaires .etiquette img {
-  width: 90px;
-  height: 110px;
-  border-radius: 10px 10px 0px 0px;
-  background-color: white;
-  border-radius: 10px 0px 0px 10px;
-  
-}
-
-/* Activités à Marseille */
-
-#conteneuractivites {
-  display: flex;
-  align-items: center;
-  float: inline-end;
-}
-
-.case1 img {
-  display
-  border-radius: 10px 10px 0px 0px;
-  width: 250px;
-  height: 250px;
-}
-
-.case2 img {
-  border-radius: 10px 10px 0px 0px;
-  width: 150px;
-  height: 90px;
-}
-
-.case3 img {
-  border-radius: 10px 10px 0px 0px;
-  width: 250px;
-  height: 250px;
-}
-
-.case4 img {
-  border-radius: 10px 10px 0px 0px;
-  width: 150px;
-  height: 90px;
-}
-
-/* footer */
-
-#footer {
-  display: flex;
-  justify-content: flex-start;
-  justify-content: space-around;
-  background-color: #f2f2f2;
-}
-
-#footer p {
-  font-size: x-small;
-}
-h4 {
-  line-height: 2%;
+.filtres .fas {
+  color: #0065fc;
 }
