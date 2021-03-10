@@ -1,0 +1,28 @@
+ @media only screen and (max-device-width: 479px)
+
+
+ {
+    .full-width-img 
+    margin: auto;
+    width: 90%;
+    }
+
+
+
+
+ @media only screen and (min-device-width: 480px) and (max-device-width: 959px)
+
+    {
+        .full-width-img 
+        margin: auto;
+        width: 90%;
+        }
+
+
+ @media only screen and (min-device-width: 960px) and (max-device-width: 1280px)
+
+ {
+    .full-width-img 
+    margin: auto;
+    width: 90%;
+    }
