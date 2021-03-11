@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 5px;
   padding: 5px;
+  color: black;
 }
 
 @font-face {
@@ -9,7 +10,6 @@
   font-family: "Raleway", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: black;
 }
 
 a:hover {
@@ -225,9 +225,6 @@ nav a {
 
 /* Activités */
 
-#activites {
-  margin-top: 40px;
-}
 .activites {
   display: flex;
   flex-wrap: wrap;
