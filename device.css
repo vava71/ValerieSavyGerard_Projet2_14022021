@@ -1,0 +1,10 @@
+@media only screen and (max-width: 480px) {
+  .iconInputButton,
+  footer {
+    width: 260px;
+  }
+  .accomodation img,
+  .activity img {
+    width: 300px;
+  }
+}

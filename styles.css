@@ -42,21 +42,21 @@ nav a {
 
 /* iconinputButton */
 
-.iconinputButton {
+.iconInputButton {
   padding: 5px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
 
-.iconinputButton i {
+.iconInputButton i {
   background-color: #f2f2f2;
   border-radius: 10px 0px 0px 10px;
   width: 3em;
   height: 2em;
   text-align: center;
 }
-.iconinputButton button {
+.iconInputButton button {
   border-radius: 0px 10px 10px 0px;
   width: 7em;
   height: 2em;
@@ -64,7 +64,7 @@ nav a {
   background-color: #0065fc;
   color: white;
 }
-.iconinputButton input {
+.iconInputButton input {
   border: none;
   height: 2em;
 }
@@ -115,7 +115,7 @@ nav a {
   color: #0065fc;
 }
 /* central */
-.centralblock {
+.centralBlock {
   display: flex;
   justify-content: space-between;
 }
@@ -135,13 +135,13 @@ nav a {
   border-radius: 10px 10px 0 0;
 }
 
-.containeraccomodation {
+.containerAccomodation {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: auto;
 }
-.containeraccomodation .picture {
+.containerAccomodation .picture {
   background: white;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
@@ -183,18 +183,18 @@ nav a {
   margin-left: 30px;
 }
 
-.popularcontainer {
+.popularContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.popularcontainer img {
+.popularContainer img {
   height: 130px;
   width: 170px;
   border-radius: 10px 0 0 10px;
 }
-.popularcontainer .label {
+.popularContainer .label {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -206,11 +206,11 @@ nav a {
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
 }
 
-.popularcontainer .label a {
+.popularContainer .label a {
   display: flex;
 }
 
-.popularcontainer .descriptions {
+.popularContainer .descriptions {
   color: black;
 }
 
@@ -225,55 +225,59 @@ nav a {
 
 /* Activités */
 
-.activites {
+.activity {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
-.activites h3 {
+.actuvity img h3 {
+  background: white;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: -34px -33px 20px -17px rgba(125, 125, 125, 0.21);
+  border: 1px solid white;
+}
+.activity h3 {
   margin-left: 15px;
   line-height: 3em;
-  background-color: white;
-  border-radius: 0px 0px 20px 20px;
+  text-align: center;
 }
 
-.activites a {
+.activity a {
   color: black;
   text-decoration: none;
 }
-.case1large img {
+.case1Large img {
   max-height: 350px;
   border-radius: 20px 20px 0px 0px;
 }
 
-.activites .case2double {
+.activity .case2Double {
   display: flex;
   flex-direction: column;
 }
 
-.activites .case2first img {
+.activity .case2First img {
   border-radius: 20px 20px 0px 0px;
   height: 150px;
   width: 280px;
 }
 
-.activites .case2second img {
+.activity .case2Second img {
   border-radius: 20px 20px 0px 0px;
   height: 110px;
   width: 280px;
 }
 
-.activites .case3large img {
+.activity .case3Large img {
   max-height: 350px;
   border-radius: 20px 20px 0px 0px;
 }
-.activites .case4double {
+.activity .case4Double {
   display: flex;
   flex-direction: column;
 }
 
-.activites .case4double img {
+.activity .case4Double img {
   height: 110px;
   width: 250px;
   border-radius: 20px 20px 0px 0px;
@@ -282,6 +286,7 @@ nav a {
 /* Footer */
 
 #footer {
+  background-color: #f2f2f2;
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
