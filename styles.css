@@ -222,3 +222,71 @@ nav a {
 .label a {
   text-decoration: none;
 }
+
+/* Activités */
+
+#activites {
+  margin-top: 40px;
+}
+.activites {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.activites h3 {
+  margin-left: 15px;
+  line-height: 3em;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.activites a {
+  color: black;
+  text-decoration: none;
+}
+.case1large img {
+  max-height: 350px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.activites .case2double {
+  display: flex;
+  flex-direction: column;
+}
+
+.activites .case2first img {
+  border-radius: 20px 20px 0px 0px;
+  height: 150px;
+  width: 280px;
+}
+
+.activites .case2second img {
+  border-radius: 20px 20px 0px 0px;
+  height: 110px;
+  width: 280px;
+}
+
+.activites .case3large img {
+  max-height: 350px;
+  border-radius: 20px 20px 0px 0px;
+}
+.activites .case4double {
+  display: flex;
+  flex-direction: column;
+}
+
+.activites .case4double img {
+  height: 110px;
+  width: 250px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+/* Footer */
+
+#footer {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
