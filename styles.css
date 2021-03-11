@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
-  margin: 10px;
+  margin: 5px;
+  padding: 5px;
 }
 
 @font-face {
@@ -122,20 +123,23 @@ nav a {
 /* hebergements */
 
 #accomodation {
-  padding: 70px;
-  margin: auto;
+  max-width: 900px;
   border-radius: 10px;
   background: #f2f2f2;
   flex: 2;
 }
+
 .containeraccomodation {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
 }
 .containeraccomodation .picture {
   background: white;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
+  padding: 15px;
 }
 
 #accomodation img {
@@ -147,10 +151,11 @@ nav a {
   color: black;
   font-size: x-small;
   height: 45px;
+  line-height: 2px;
 }
 .details .fas {
   color: #0065fc;
-  font-size: x-small;
+  font-size: xx-small;
 }
 .picture a {
   text-decoration: none;
@@ -163,30 +168,53 @@ nav a {
 /* populaires */
 
 #popular {
-  width: 40%;
-  margin-left: 3em;
-  float: right;
+  max-width: 700px;
+  max-height: 700px;
   border-radius: 10px;
   background: #f2f2f2;
-  flex: 1;
+  flex: 2;
 }
 
-#popular img {
-  height: 100px;
-  width: 130px;
+#popular h4 {
+  display: inline-block;
+  width: 80%;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.popularcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popularcontainer img {
+  height: 130px;
+  width: 170px;
   border-radius: 10px 0 0 10px;
 }
 .popularcontainer .label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  width: 500px;
+  height: 200px;
   background: white;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
 }
+
+.popularcontainer .label a {
+  display: flex;
+}
+
+.popularcontainer .descriptions {
+  color: black;
+}
+
 .descriptions .fas {
   color: #0065fc;
-  font-size: x-small;
-}
-.descriptions {
-  color: black;
   font-size: x-small;
 }
 
