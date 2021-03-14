@@ -1,12 +1,9 @@
 * {
-  box-sizing: border-box;
-  margin: 5px;
-  padding: 5px;
   color: black;
 }
 
 @font-face {
-  src: url(https://fonts.googleapis.com/css2?family=Raleway&display=swap);
+  src: url("https://fonts.googleapis.com/css2? family = Raleway & display = swap");
   font-family: "Raleway", sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -19,295 +16,114 @@ a:hover {
 /* Header */
 
 #logo {
+  margin: 35px;
   width: 100px;
-  height: 100px;
-}
-h3,
-p {
-  font-size: 1.2em;
+  height: 70px;
 }
 
-nav {
-  display: flex;
-  justify-content: flex-end;
-  justify-content: space-between;
-  padding-left: 65%;
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
-  list-style: none;
-}
-
-/* iconinputButton */
-
-.iconInputButton {
-  padding: 5px;
+.header {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-evenly;
+  margin-left: 700px;
+  margin-right: 15px;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+/* H3 - P */
+
+h3,
+p {
+  margin: 35px;
+  line-height: 5px;
+}
+
+h3 {
+  margin-top: 55px;
+}
+
+/* iconInputButton */
+
+.iconInputButton {
+  margin: 35px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
 }
 
 .iconInputButton i {
   background-color: #f2f2f2;
-  border-radius: 10px 0px 0px 10px;
-  width: 3em;
-  height: 2em;
+  border-radius: 10px 0 0 10px;
+  height: 40px;
+  width: 45px;
   text-align: center;
 }
-.iconInputButton button {
-  border-radius: 0px 10px 10px 0px;
-  width: 7em;
-  height: 2em;
+input {
+  border-radius: 10px 10px 10px 10px;
   border: none;
+}
+
+button {
+  border-radius: 0px 10px 10px 0px;
   background-color: #0065fc;
   color: white;
-}
-.iconInputButton input {
+  width: 105px;
   border: none;
-  height: 2em;
+  font-weight: bold;
 }
 
 /* Filtres */
 
-.filtres {
+.filters {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: medium;
+  margin-left: 35px;
+  margin-right: 200px;
 }
-.filtres p {
-  margin: 8px 20px 0 0;
-  line-height: 50px;
-  font-weight: bold;
-}
-.filtres i {
-  height: 40px;
-  width: 40px;
-  margin-right: 20px;
-  padding-top: 12px;
-  text-align: center;
-  background: #deebff;
+
+.filters i {
+  background-color: #deebff;
   border-radius: 50%;
+  padding: 10px;
+  color: #0065fc;
 }
-.filtres ul {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
-}
-.filtres li {
-  display: flex;
-  align-items: center;
-  margin: 10px;
-  padding-right: 20px;
-  border: 3px solid #f2f2f2;
-  border-radius: 20px;
-}
-.filtres a {
+
+.filters a {
   text-decoration: none;
-  color: black;
   font-weight: bold;
 }
-.filtres a:hover {
-  color: #0065fc;
-}
 
-.filtres .fas {
-  color: #0065fc;
-}
-/* central */
-.centralBlock {
-  display: flex;
-  justify-content: space-between;
-}
-
-/* hebergements */
-
-#accomodation {
-  max-width: 900px;
-  border-radius: 10px;
-  background: #f2f2f2;
-  flex: 2;
-}
-
-#accomodation img {
-  height: 100px;
-  width: 190px;
-  border-radius: 10px 10px 0 0;
-}
-
-.containerAccomodation {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: auto;
-}
-.containerAccomodation .picture {
-  background: white;
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  padding: 15px;
-}
-
-.details {
-  color: black;
-  font-size: x-small;
-  height: 45px;
-  line-height: 2px;
-}
-.details .fas {
-  color: #0065fc;
-  font-size: xx-small;
-}
-.picture a {
-  text-decoration: none;
-}
-.plus a {
-  color: black;
-  text-decoration: none;
-}
-
-/* populaires */
-
-#popular {
-  max-width: 700px;
-  max-height: 800px;
-  border-radius: 10px;
-  background: #f2f2f2;
-  flex: 2;
-}
-
-#popular h4 {
-  display: inline-block;
-  width: 80%;
-  margin-top: 30px;
-  margin-left: 30px;
-}
-
-.popularContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.popularContainer img {
-  height: 130px;
+.economy {
+  border: 2px solid #f2f2f2;
+  border-radius: 30px 30px 30px 30px;
   width: 170px;
-  border-radius: 10px 0 0 10px;
-}
-.popularContainer .label {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-
-  width: 500px;
-  height: 200px;
-  background: white;
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
 }
 
-.popularContainer .label a {
-  display: flex;
+.family {
+  border: 2px solid #f2f2f2;
+  border-radius: 30px 30px 30px 30px;
+  width: 120px;
 }
 
-.popularContainer .descriptions {
-  color: black;
+.romantic {
+  border: 2px solid #f2f2f2;
+  border-radius: 30px 30px 30px 30px;
+  width: 150px;
 }
 
-.descriptions .fas {
-  color: #0065fc;
-  font-size: x-small;
+.pets {
+  border: 2px solid #f2f2f2;
+  border-radius: 30px 30px 30px 30px;
+  width: 190px;
 }
 
-.label a {
-  text-decoration: none;
-}
-
-/* Activités */
-
-.activity {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.actuvity img h3 {
-  background: white;
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: -34px -33px 20px -17px rgba(125, 125, 125, 0.21);
-  border: 1px solid white;
-}
-.activity h3 {
-  margin-left: 15px;
-  line-height: 3em;
-  text-align: center;
-}
-
-.activity a {
-  color: black;
-  text-decoration: none;
-}
-.case1Large img {
-  max-height: 350px;
-  border-radius: 20px 20px 0px 0px;
-}
-
-.activity .case2Double {
-  display: flex;
-  flex-direction: column;
-}
-
-.activity .case2First img {
-  border-radius: 20px 20px 0px 0px;
-  height: 150px;
-  width: 280px;
-}
-
-.activity .case2Second img {
-  border-radius: 20px 20px 0px 0px;
-  height: 110px;
-  width: 280px;
-}
-
-.activity .case3Large img {
-  max-height: 350px;
-  border-radius: 20px 20px 0px 0px;
-}
-.activity .case4Double {
-  display: flex;
-  flex-direction: column;
-}
-
-.activity .case4Double img {
-  height: 110px;
-  width: 250px;
-  border-radius: 20px 20px 0px 0px;
-}
-
-/* Footer */
-
-#footer {
-  background-color: #f2f2f2;
-
-  margin-top: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-/* écran inférieur à 480px */
-
-@media only screen and (max-width: 480px) {
-  * {
-    box-sizing: border-box;
-    margin: 1px;
-    padding: 1px;
-    color: black;
-  }
-
-  body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 736px;
-  }
+p .fas {
+  color: white;
+  background-color: #0065fc;
+  border: #f2f2f2;
 }
