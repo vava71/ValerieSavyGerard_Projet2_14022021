@@ -1,0 +1,86 @@
+@media screen and (max-width: 375px) {
+  * {
+    font-size: x-small;
+  }
+  /* logo */
+
+  #logo {
+    margin: 10px 0 0 10px;
+    width: 65px;
+    height: 35px;
+  }
+
+  /* nav */
+
+  nav {
+    margin: 0px;
+    margin-top: 15px;
+    width: 350px;
+  }
+
+  h3 {
+    font-size: large;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 10px;
+    padding-right: 90px;
+    margin-top: 30px;
+    text-align: justify;
+  }
+
+  p {
+    margin: 10px;
+    line-height: 5px;
+    font-size: small;
+    text-align: justify;
+  }
+
+  .iconInputButton {
+    margin-top: 20px;
+  }
+
+  .iconInputButton i {
+    height: 30px;
+    font-size: small;
+  }
+
+  input {
+    border: 1px solid #f2f2f2;
+    width: 200px;
+    border-radius: 0;
+  }
+
+  button {
+    border-radius: 10px 10px 10px 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 0mm;
+  }
+
+  /* Filtres */
+
+  .filters {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+  }
+
+  .economy {
+    width: 100px;
+  }
+
+  .family {
+    width: 75px;
+  }
+  .romantic {
+    width: 90px;
+  }
+
+  .pets {
+    width: 120px;
+  }
+
+  p i {
+    margin-top: 150px;
+  }
+}
