@@ -13,9 +13,12 @@
   /* nav */
 
   nav {
+    display: flex;
+    flex-direction: column-reverse;
     margin: 0px;
-    margin-top: 15px;
+    margin-top: 20px;
     width: 350px;
+    font-size: 13px;
   }
 
   h3 {
@@ -60,27 +63,31 @@
   /* Filtres */
 
   .filters {
-    display: flex;
-    flex-direction: column;
-    margin-left: 15px;
+    width: 250px;
+    justify-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .filters a {
+    font-size: 13px;
   }
 
   .economy {
-    width: 100px;
+    width: 110px;
   }
 
   .family {
-    width: 75px;
+    width: 83px;
   }
   .romantic {
-    width: 90px;
+    width: 105px;
   }
 
   .pets {
-    width: 120px;
+    width: 145px;
   }
 
   p i {
-    margin-top: 150px;
+    margin-top: 70px;
   }
 }
