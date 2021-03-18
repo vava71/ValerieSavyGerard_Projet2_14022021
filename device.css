@@ -1,46 +1,23 @@
 @media screen and (max-width: 375px) {
-  * {
-    font-size: x-small;
-  }
-  /* logo */
+  /* Header */
 
   #logo {
-    margin: 10px 0 0 10px;
     width: 65px;
     height: 35px;
   }
 
-  /* nav */
-
-  nav {
-    display: flex;
-    flex-direction: column-reverse;
-    margin: 0px;
-    margin-top: 20px;
-    width: 350px;
-    font-size: 13px;
+  .selection a {
+    flex-direction: row;
+    justify-content: space-around;
   }
 
-  h3 {
-    font-size: large;
-    font-weight: bold;
-    line-height: 20px;
-    margin: 10px;
-    padding-right: 90px;
-    margin-top: 30px;
-    text-align: justify;
+  /* presentation */
+
+  .presentation {
+    line-height: 15px;
   }
 
-  p {
-    margin: 10px;
-    line-height: 5px;
-    font-size: small;
-    text-align: justify;
-  }
-
-  .iconInputButton {
-    margin-top: 20px;
-  }
+  /* iconInputButton */
 
   .iconInputButton i {
     height: 30px;
@@ -49,7 +26,8 @@
 
   input {
     border: 1px solid #f2f2f2;
-    width: 200px;
+    width: 230px;
+    height: 30px;
     border-radius: 0;
   }
 
@@ -63,31 +41,39 @@
   /* Filtres */
 
   .filters {
-    width: 250px;
-    justify-items: flex-start;
     flex-wrap: wrap;
   }
 
-  .filters a {
-    font-size: 13px;
-  }
-
   .economy {
-    width: 110px;
+    width: 140px;
   }
 
   .family {
-    width: 83px;
+    width: 95px;
   }
   .romantic {
-    width: 105px;
+    width: 150px;
   }
 
   .pets {
-    width: 145px;
+    width: 175px;
   }
 
-  p i {
-    margin-top: 70px;
+  /* Bloc central */
+
+  .centralBlock {
+    flex-direction: column-reverse;
+  }
+
+  .containerAccomodation {
+    background-color: white;
+    height: 700px;
+    width: 100%;
+  }
+
+  .containerPopular {
+    background-color: #f2f2f2;
+    height: 450px;
+    width: 100%;
   }
 }
