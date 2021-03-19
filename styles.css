@@ -35,6 +35,9 @@ a:hover {
 }
 
 .selection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   border: 2px solid red;
 }
 
@@ -71,7 +74,10 @@ input {
   width: 200px;
 }
 
-button {
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 0px 10px 10px 0px;
   background-color: #0065fc;
   color: white;
@@ -79,6 +85,15 @@ button {
   width: 105px;
   border: none;
   font-weight: bold;
+}
+.loupe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #0065fc;
+  width: 30px;
+  height: 35px;
 }
 
 /* Filtres */

@@ -1,29 +1,44 @@
+@media screen and (max-width: 1024px) {
+  .loupe {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 375px) {
   /* Header */
+
+  .headerSearch {
+    margin: 0px 0px 0px 0px;
+  }
 
   #logo {
     width: 65px;
     height: 35px;
   }
 
-  .selection a {
-    flex-direction: row;
+  .selection {
     justify-content: space-around;
   }
 
   /* presentation */
-
   .presentation {
-    line-height: 15px;
+    line-height: 1px;
+  }
+  .presentation h3 {
+    line-height: 25px;
+    font-size: x-large;
+  }
+
+  .presentation p {
+    font-size: medium;
   }
 
   /* iconInputButton */
 
   .iconInputButton i {
-    height: 30px;
+    height: 35px;
     font-size: small;
   }
-
   input {
     border: 1px solid #f2f2f2;
     width: 230px;
@@ -31,19 +46,24 @@
     border-radius: 0;
   }
 
-  button {
-    border-radius: 10px 10px 10px 10px;
-    width: 30px;
-    height: 30px;
-    font-size: 0mm;
+  .button {
+    display: none;
   }
 
   /* Filtres */
 
   .filters {
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
   }
-
+  .choice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .title {
+    justify-content: flex-start;
+  }
   .economy {
     width: 140px;
   }
@@ -51,6 +71,7 @@
   .family {
     width: 95px;
   }
+
   .romantic {
     width: 150px;
   }
