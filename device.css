@@ -1,15 +1,15 @@
-@media screen and (max-width: 1024px) {
-  .loupe {
+@media screen and (min-width: 768px) {
+  .loupe i {
     display: none;
+  }
+  .choice {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
 @media screen and (max-width: 375px) {
   /* Header */
-
-  .headerSearch {
-    margin: 0px 0px 0px 0px;
-  }
 
   #logo {
     width: 65px;
@@ -52,15 +52,15 @@
 
   /* Filtres */
 
-  .filters {
-    display: flex;
-    flex-direction: column;
-  }
   .choice {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
+
+  .filters {
+    flex-direction: column;
+  }
+
   .title {
     justify-content: flex-start;
   }
