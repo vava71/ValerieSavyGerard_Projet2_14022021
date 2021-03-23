@@ -84,11 +84,12 @@
 
   .centralBlock {
     flex-direction: column-reverse;
+    just
   }
 
   .containerAccomodation {
     background-color: white;
-    height: 700px;
+    height: 500px;
     width: 100%;
   }
 
