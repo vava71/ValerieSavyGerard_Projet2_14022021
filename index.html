@@ -10,6 +10,7 @@
     <link href="css/styles.css" type="text/css" rel="stylesheet" media="all" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+
     <link
       href="https://fonts.googleapis.com/css2? family = Raleway & display = swap"
       rel="feuille de style "
@@ -22,114 +23,79 @@
   </head>
 
   <body>
-    
-    
-    <header> 
+    <header>
       <div class="header">
-        <img id="logo" src="images/logo/Reservia@3x.png" alt="logo" />
+        <img id="logo" src="logo/Reservia@3x.png" alt="logo" />
         <a href="#inscrire">S&#039;inscrire</a>
       </div>
-     <nav class="selection">
+      <nav class="selection">
         <a href="#hebergements">Hébergements</a>
         <a href="#activites">Activités</a>
       </nav>
     </header>
 
+    <main>
+      <div class="presentation">
+        <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
+        <p>En plein centre ville ou en pleine nature</p>
+      </div>
 
- <main>
-    <div class="presentation">
-      <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
-      <p>En plein centre ville ou en pleine nature</p>
-    </div>
+      <div class="iconInputButton">
+        <i class="fa fa-map-marker-alt"></i>
+        <input
+          type="text"
+          id="site-search"
+          name="search"
+          aria-label="Rechercher sur ce site"
+        />
+        <div class="loupe"><i class="fas fa-search"></i></div>
+        <div class="button">Rechercher</div>
+      </div>
 
-    <div class="iconInputButton">
-      <i class="fa fa-map-marker-alt"></i>
-      <input
-        type="text"
-        id="site-search"
-        name="search"
-        aria-label="Rechercher sur ce site"
-      />
-      <div class="loupe"><i class="fas fa-search"></i></div>
-<div class="button">Rechercher</div>
-    </div>
-
-
-
-   
-      
       <div class="filters">
-        
-          <span class="title">Filtres</span>
-         <div class="choice">
+        <span class="title">Filtres</span>
+        <div class="choice">
           <div class="economy">
             <i class="fas fa-money-bill-wave"></i>
             <a href="#">Économique</a>
           </div>
-          
+
           <div class="family">
             <i class="fas fa-child"></i><a href="#">Familial</a>
-          </div></div>
-        
-           <div class="romantic">
-            <i class="fas fa-heart"></i><a href="#">Romantique</a>
           </div>
-          <div class="pets">
-            <i class="fas fa-dog"></i><a href="#">Animaux autorisés</a>
-          </div>  </div>
-       
-    
-      <div class="resultat"><span></span>
-        <p>
-          <i class="fas fa-info-circle"> </i> 
-          Plus de 500 logements sont disponibles 
-          dans cette ville
-       </p></span>
+        </div>
+
+        <div class="romantic">
+          <i class="fas fa-heart"></i><a href="#">Romantique</a>
+        </div>
+        <div class="pets">
+          <i class="fas fa-dog"></i><a href="#">Animaux autorisés</a>
+        </div>
       </div>
 
-
-
+      <div class="resultat">
+        <span>
+          <i class="fas fa-info-circle"> </i>
+          Plus de 500 logements sont disponibles dans cette ville
+        </span>
+      </div>
 
       <section class="centralBlock">
+        <div class="containerAccomodation">
+          <span>Hébergements à Marseille</span>
 
-<div class="containerAccomodation">
-   <a href="#">
-     
- <span><h2>Hébergements à Marseille</h2></span>
- <div class="picture1" style="background-color: white; 
- border-radius: 10px 10px 10px 10px; 
- height: 150px;
-  width: 200px;"></div>
-   
+          <div class="accomodation">
+            <a href="#">
+              <div class="picture1" style="background-color: white">
+                <div class="image1"></div>
+              </div>
+            </a>
+          </div>
+        </div>
 
-   <div class="picture2" style="background-color: white; 
-   border-radius: 10px 10px 10px 10px; 
-   height: 150px;
-    width: 200px;"></div>
-     
-
-
-
-
-</a>
-</div>
-
-
-
-
-  <div class="containerPopular">
- 
-      <a href="#"> 
-         <span><h2>Les plus populaire<i class="fas fa-chart-line"></i></h2></span>
-         <div class="popular">
-  
-</div>  
-</a>
-</div>
-
-
-
-
+        <div class="containerPopular">
+          <span>Les plus polpulaires</span>
+        </div>
       </section>
     </main>
   </body>
