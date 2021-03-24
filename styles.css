@@ -161,6 +161,19 @@ input {
   justify-content: space-between;
 }
 
+.star i {
+  color: #0065fc;
+  font-size: 10px;
+}
+
+.star .no-star {
+  color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* hébergements à marseille */
 
 .containerAccomodation {
@@ -171,16 +184,27 @@ input {
   width: 650px;
 }
 
+.accomodation {
+  display: flex;
+  flex-direction: column;
+}
+
 .picture1 {
-  height: 150px;
-  width: 180px;
+  background-color: white;
+  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   border-radius: 10px 10px 10px 10px;
+  height: 120px;
+  width: 160px;
 }
 
 .image1 {
-  background-image: url(hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
-  background-position: center;
-  border-radius: 10px 10px 0 0;
+  background-image: url(images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+}
+
+span {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
 }
 
 .containerPopular {
