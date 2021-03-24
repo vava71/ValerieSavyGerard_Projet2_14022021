@@ -24,7 +24,6 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid red;
 }
 .header a {
   text-decoration: none;
@@ -34,7 +33,6 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border: 2px solid red;
 }
 
 .selection a {
@@ -43,14 +41,12 @@ a:hover {
 /* presentation */
 
 .presentation {
-  border: 2px solid red;
 }
 
 /* iconInputButton */
 
 .iconInputButton {
   display: flex;
-  border: 2px solid red;
 }
 
 .iconInputButton i {
@@ -99,7 +95,6 @@ input {
 /* Filtres */
 
 .filters {
-  border: 2px solid red;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -151,7 +146,6 @@ input {
 }
 
 .resultat {
-  border: 2px solid red;
 }
 
 /* Bloc central */
@@ -177,7 +171,6 @@ a {
 /* hébergements à marseille */
 
 .containerAccomodation {
-  border: 2px solid red;
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
   height: 480px;
@@ -190,7 +183,6 @@ a {
 }
 
 .picture1 {
-  border: 2px solid blue;
   background-color: white;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   border-radius: 10px 10px 10px 10px;
@@ -209,7 +201,6 @@ span {
 }
 
 .containerPopular {
-  border: 2px solid red;
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
   height: 480px;
