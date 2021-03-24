@@ -190,6 +190,7 @@ a {
 }
 
 .picture1 {
+  border: 2px solid blue;
   background-color: white;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   border-radius: 10px 10px 10px 10px;
