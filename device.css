@@ -88,9 +88,9 @@
   }
 
   .accomodation {
-    margin-top: 50px;
     display: flex;
     flex-flow: wrap;
+    margin-top: 40px;
   }
 
   .picture1 {
@@ -218,6 +218,13 @@
     font-size: 10px;
     margin-left: 5px;
     line-height: 17px;
+  }
+
+  .plus {
+    font-size: 10px;
+    font-weight: bolder;
+    margin-left: 40px;
+    margin-top: 55px;
   }
 
   /* Containeur populaires */
