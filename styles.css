@@ -112,7 +112,7 @@ input {
 
 .title {
   display: flex;
-  justify-content: center;
+
   font-size: 15px;
   font-weight: bold;
 }
@@ -188,6 +188,10 @@ a {
 
 /* hébergements à marseille */
 
+* {
+  box-sizing: border-box;
+}
+
 .containerAccomodation {
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
@@ -195,33 +199,94 @@ a {
   width: 650px;
 }
 
-.accomodation {
-  display: flex;
-  flex-direction: column;
-}
-
 .picture1 {
   background-color: white;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  height: 150px;
-  width: 170px;
-  margin-left: 20px;
 }
 
 .picture1 img {
-  height: 100px;
-  width: 160px;
   border-radius: 10px 10px 0 0;
-  margin-left: 5px;
-  margin-top: 5px;
 }
 
 .details1 {
   display: flex;
   flex-direction: column;
-  font-size: 10px;
-  margin-left: 5px;
+}
+
+.picture2 {
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
+}
+
+.picture2 img {
+  border-radius: 10px 10px 0 0;
+}
+
+.details2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.picture3 {
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
+}
+
+.picture3 img {
+  border-radius: 10px 10px 0 0;
+}
+
+.details3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.picture4 {
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
+}
+
+.picture4 img {
+  border-radius: 10px 10px 0 0;
+}
+
+.details4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.picture5 {
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
+}
+
+.picture5 img {
+  border-radius: 10px 10px 0 0;
+}
+
+.details5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.picture6 {
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
+}
+
+.picture6 img {
+  border-radius: 10px 10px 0 0;
+}
+
+.details6 {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Containeur populaires */
