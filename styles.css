@@ -199,7 +199,12 @@ a {
   width: 650px;
 }
 
+.accomodation {
+  display: flex;
+}
+
 .picture1 {
+  display: flex;
   background-color: white;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
@@ -211,10 +216,10 @@ a {
 
 .details1 {
   display: flex;
-  flex-direction: column;
 }
 
 .picture2 {
+  display: flex;
   background-color: white;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
@@ -226,10 +231,10 @@ a {
 
 .details2 {
   display: flex;
-  flex-direction: column;
 }
 
 .picture3 {
+  display: flex;
   background-color: white;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
@@ -241,10 +246,10 @@ a {
 
 .details3 {
   display: flex;
-  flex-direction: column;
 }
 
 .picture4 {
+  display: flex;
   background-color: white;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
@@ -256,10 +261,10 @@ a {
 
 .details4 {
   display: flex;
-  flex-direction: column;
 }
 
 .picture5 {
+  display: flex;
   background-color: white;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
@@ -271,10 +276,10 @@ a {
 
 .details5 {
   display: flex;
-  flex-direction: column;
 }
 
 .picture6 {
+  display: flex;
   background-color: white;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
@@ -286,7 +291,6 @@ a {
 
 .details6 {
   display: flex;
-  flex-direction: column;
 }
 
 /* Containeur populaires */
