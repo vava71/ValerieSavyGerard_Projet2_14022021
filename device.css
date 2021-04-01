@@ -90,6 +90,12 @@
 
   /* hébergements à marseille */
 
+  .containerAccomodation {
+    height: 450px;
+    width: 610px;
+    margin-left: 15px;
+  }
+
   .title1 {
     font-size: 17px;
     font-weight: bolder;
@@ -236,6 +242,12 @@
   }
 
   /* Containeur populaires */
+
+  .containerPopular {
+    height: 450px;
+    width: 330px;
+    margin-right: 15px;
+  }
 
   .title2 {
     flex-direction: row;
@@ -410,7 +422,7 @@
     flex-direction: column;
     background-color: white;
     height: 500px;
-    width: 100%;
+
     border-radius: 0;
   }
 
@@ -575,5 +587,30 @@
     font-size: 20px;
     font-weight: bolder;
     margin-top: 30px;
+  }
+
+  .accomodation {
+    flex-direction: column;
+    align-items: center;
+  }
+  .label1 {
+    width: 330px;
+    height: 180px;
+    margin-top: 20px;
+  }
+
+  .label1 img {
+    width: 330px;
+    height: 110px;
+    border-radius: 15px 15px 0 0;
+    padding: 5px 5px 0 5px;
+    margin-bottom: 5px;
+  }
+
+  .descriptive1 {
+    flex-direction: column;
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: 17px;
   }
 }

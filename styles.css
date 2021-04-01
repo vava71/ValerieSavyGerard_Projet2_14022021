@@ -112,7 +112,6 @@ input {
 
 .title {
   display: flex;
-
   font-size: 15px;
   font-weight: bold;
 }
@@ -195,9 +194,6 @@ a {
 .containerAccomodation {
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
-  height: 450px;
-  width: 610px;
-  margin-left: 15px;
 }
 
 .title1 {
@@ -300,12 +296,13 @@ a {
 
 /* Containeur populaires */
 
+* {
+  box-sizing: border-box;
+}
+
 .containerPopular {
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
-  height: 450px;
-  width: 330px;
-  margin-right: 15px;
 }
 
 .title2 {
