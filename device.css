@@ -1,6 +1,10 @@
 @media screen and (min-width: 768px) {
   /* Header */
 
+  header {
+    margin-left: 15px;
+  }
+
   .header a {
     display: none;
   }
@@ -24,6 +28,10 @@
   }
 
   /* Main */
+
+  .recherche {
+    margin-left: 15px;
+  }
 
   .presentation {
     margin-top: 75px;
@@ -230,9 +238,43 @@
   /* Containeur populaires */
 
   .title2 {
+    flex-direction: row;
+    justify-content: space-around;
     font-size: 17px;
     font-weight: bolder;
     margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .popular {
+    justify-content: center;
+  }
+
+  .label1 {
+    flex-direction: row;
+
+    width: 280px;
+    height: 130px;
+    margin-bottom: 10px;
+  }
+
+  .label1 img {
+    width: 130px;
+    height: 120px;
+    border-radius: 15px 0px 0 15px;
+    padding: 5px 5px 0 5px;
+    margin-bottom: 5px;
+  }
+
+  .descriptive1 {
+    flex-direction: column;
+    font-size: 10px;
+    margin-left: 10px;
+    line-height: 17px;
+  }
+
+  .label1 .star {
+    margin-top: 15px;
   }
 }
 /*..................max-width: 375px.................*/
