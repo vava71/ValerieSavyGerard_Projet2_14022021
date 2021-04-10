@@ -14,7 +14,7 @@
   }
 
   #logo {
-    margin-top: 85px;
+    margin-top: 65px;
     width: 65px;
     height: 35px;
   }
@@ -259,6 +259,7 @@
   }
 
   .popular {
+    flex-direction: column;
     justify-content: center;
   }
 
@@ -266,29 +267,87 @@
     flex-direction: row;
 
     width: 280px;
-    height: 130px;
-    margin-bottom: 10px;
+    height: 100px;
+    margin-bottom: 20px;
   }
 
   .label1 img {
     width: 130px;
-    height: 120px;
+    height: 95px;
     border-radius: 15px 0px 0 15px;
     padding: 5px 5px 0 5px;
     margin-bottom: 5px;
   }
 
   .descriptive1 {
-    flex-direction: column;
     font-size: 10px;
     margin-left: 10px;
     line-height: 17px;
   }
 
-  .label1 .star {
-    margin-top: 15px;
+  .label2 {
+    flex-direction: row;
+
+    width: 280px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+  .label2 img {
+    width: 130px;
+    height: 95px;
+    border-radius: 15px 0px 0 15px;
+    padding: 5px 5px 0 5px;
+    margin-bottom: 5px;
+  }
+
+  .descriptive2 {
+    font-size: 10px;
+    margin-left: 10px;
+    line-height: 17px;
+  }
+
+  .label3 {
+    flex-direction: row;
+
+    width: 280px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+  .label3 img {
+    width: 130px;
+    height: 95px;
+    border-radius: 15px 0px 0 15px;
+    padding: 5px 5px 0 5px;
+    margin-bottom: 5px;
+  }
+
+  .descriptive3 {
+    font-size: 10px;
+    margin-left: 10px;
+    line-height: 17px;
+  }
+
+  .title3 {
+    margin-top: 40px;
+  }
+
+  .label4 img {
+    width: 180px;
+    height: 250px;
+  }
+
+  .label5 .image1 {
+    width: 180px;
+    height: 125px;
+  }
+  .label5 .image2 {
+    width: 180px;
+    height: 125px;
   }
 }
+
 /*..................max-width: 375px.................*/
 
 @media screen and (max-width: 414px) {
@@ -418,11 +477,9 @@
   /* hébergements à marseille */
 
   .containerAccomodation {
-    display: flex;
     flex-direction: column;
     background-color: white;
     height: 500px;
-
     border-radius: 0;
   }
 
@@ -572,9 +629,10 @@
   /* Containeur populaires */
 
   .containerPopular {
+    flex-direction: column;
     background-color: #f2f2f2;
     width: 375px;
-    height: 450px;
+    height: 700px;
     border-radius: 0;
     margin-bottom: 25px;
   }
@@ -590,7 +648,6 @@
   }
 
   .accomodation {
-    flex-direction: column;
     align-items: center;
   }
   .label1 {
@@ -608,7 +665,46 @@
   }
 
   .descriptive1 {
-    flex-direction: column;
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: 17px;
+  }
+
+  .label2 {
+    width: 330px;
+    height: 130px;
+    margin-top: 20px;
+  }
+
+  .label2 img {
+    width: 330px;
+    height: 110px;
+    border-radius: 15px 15px 0 0;
+    padding: 5px 5px 0 5px;
+    margin-bottom: 5px;
+  }
+
+  .descriptive2 {
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: 17px;
+  }
+
+  .label3 {
+    width: 330px;
+    height: 130px;
+    margin-top: 20px;
+  }
+
+  .label3 img {
+    width: 330px;
+    height: 110px;
+    border-radius: 15px 15px 0 0;
+    padding: 5px 5px 0 5px;
+    margin-bottom: 5px;
+  }
+
+  .descriptive3 {
     font-size: 15px;
     margin-left: 10px;
     line-height: 17px;
