@@ -17,7 +17,7 @@ a:hover {
   color: #0065fc;
 }
 
-/* Header */
+/*..............Header...........................*/
 
 #logo {
   width: 70px;
@@ -50,9 +50,9 @@ header {
   text-decoration: none;
 }
 
-/* presentation */
+/*..............presentation......................*/
 
-/* iconInputButton */
+/*.............iconInputButton...................*/
 
 .iconInputButton {
   display: flex;
@@ -101,7 +101,7 @@ input {
   font-weight: bold;
 }
 
-/* Filtres */
+/*..............Filtres..........................*/
 
 .filters {
   display: flex;
@@ -165,7 +165,7 @@ input {
   margin-right: 10px;
 }
 
-/* Bloc central */
+/*...............Bloc central....................*/
 
 .centralBlock {
   display: flex;
@@ -185,7 +185,7 @@ a {
   text-decoration: none;
 }
 
-/* hébergements à marseille */
+/*.............. hébergements à marseille .........*/
 
 * {
   box-sizing: border-box;
@@ -294,7 +294,7 @@ a {
   display: flex;
 }
 
-/* Containeur populaires */
+/*.......... Containeur populaires........... */
 
 * {
   box-sizing: border-box;
@@ -361,37 +361,86 @@ a {
   display: flex;
 }
 
+/*.................. Containeur activites................ */
+
 .activites {
   display: flex;
 }
-.activitesimages {
-  display: flex;
+
+.label4 {
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
 }
 
-.label4 img {
-  display: flex;
-  border-radius: 10px 10px 0 0;
-}
-
-.label5 .image1 {
-  display: flex;
-  border-radius: 10px 10px 0 0;
-}
-.label5 .image2 {
+.label4img img {
   display: flex;
   border-radius: 10px 10px 0 0;
 }
 
-.label6 img {
+.label5 {
+  display: flex;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.label5img1 {
+  display: flex;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
+}
+
+.label5image1 img {
   display: flex;
   border-radius: 10px 10px 0 0;
 }
 
-.label7 .image1 {
+.label5img2 {
+  display: flex;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
+}
+
+.label5image2 img {
   display: flex;
   border-radius: 10px 10px 0 0;
 }
-.label7 .image2 {
+
+.descriptive5B {
+  display: flex;
+}
+.label6 {
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
+}
+
+.label6img {
   display: flex;
   border-radius: 10px 10px 0 0;
+}
+
+.descriptive6 {
+  display: flex;
+}
+
+.label7 {
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.descriptive7 {
+  display: flex;
+}
+
+.label7image1 {
+  display: flex;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
+}
+.label7image2 {
+  display: flex;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
 }
