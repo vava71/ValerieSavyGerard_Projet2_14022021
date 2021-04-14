@@ -110,7 +110,8 @@
   }
 
   .picture1 {
-    justify-content: center;
+    flex-wrap: wrap;
+
     width: 170px;
     height: 150px;
     margin-right: 10px;
@@ -118,6 +119,7 @@
   }
 
   .picture1 img {
+    align-items: center;
     width: 170px;
     height: 80px;
     padding: 5px 5px 0 5px;
@@ -126,13 +128,14 @@
 
   .details1 {
     flex-direction: column;
+
     font-size: 10px;
     margin-left: 5px;
     line-height: 17px;
   }
 
   .picture2 {
-    justify-content: center;
+    flex-wrap: wrap;
     width: 170px;
     height: 150px;
     margin-right: 10px;
@@ -153,7 +156,7 @@
   }
 
   .picture3 {
-    justify-content: center;
+    flex-wrap: wrap;
     width: 170px;
     height: 150px;
   }
@@ -173,7 +176,7 @@
   }
 
   .picture4 {
-    justify-content: center;
+    flex-wrap: wrap;
     width: 170px;
     height: 150px;
     margin-right: 10px;
@@ -194,7 +197,7 @@
   }
 
   .picture5 {
-    justify-content: center;
+    flex-wrap: wrap;
     width: 170px;
     height: 150px;
     margin-right: 10px;
@@ -215,14 +218,14 @@
   }
 
   .picture6 {
-    justify-content: center;
+    flex-wrap: wrap;
     width: 170px;
     height: 150px;
   }
 
   .picture6 img {
-    width: 170px;
     height: 80px;
+    width: 170px;
     padding: 5px 5px 0 5px;
     margin-bottom: 5px;
   }
@@ -260,13 +263,13 @@
 
   .popular {
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
   }
 
   .label1 {
     flex-direction: row;
 
-    width: 280px;
+    width: 250px;
     height: 100px;
     margin-bottom: 20px;
   }
@@ -280,15 +283,15 @@
   }
 
   .descriptive1 {
+    flex-direction: column;
+    justify-content: center;
     font-size: 10px;
     margin-left: 10px;
     line-height: 17px;
   }
 
   .label2 {
-    flex-direction: row;
-
-    width: 280px;
+    width: 250px;
     height: 100px;
     margin-bottom: 20px;
   }
@@ -302,6 +305,8 @@
   }
 
   .descriptive2 {
+    flex-direction: column;
+    justify-content: center;
     font-size: 10px;
     margin-left: 10px;
     line-height: 17px;
@@ -310,7 +315,7 @@
   .label3 {
     flex-direction: row;
 
-    width: 280px;
+    width: 250px;
     height: 100px;
     margin-bottom: 20px;
   }
@@ -324,6 +329,8 @@
   }
 
   .descriptive3 {
+    flex-direction: column;
+    justify-content: center;
     font-size: 10px;
     margin-left: 10px;
     line-height: 17px;
@@ -348,7 +355,7 @@
   }
 }
 
-/*..................max-width: 375px.................*/
+/*......................................max-width: 375px.....................................*/
 
 @media screen and (max-width: 414px) {
   /* Header */
