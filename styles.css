@@ -361,6 +361,9 @@ a {
   display: flex;
 }
 
+.activites {
+  display: flex;
+}
 .activitesimages {
   display: flex;
 }
@@ -375,6 +378,20 @@ a {
   border-radius: 10px 10px 0 0;
 }
 .label5 .image2 {
+  display: flex;
+  border-radius: 10px 10px 0 0;
+}
+
+.label6 img {
+  display: flex;
+  border-radius: 10px 10px 0 0;
+}
+
+.label7 .image1 {
+  display: flex;
+  border-radius: 10px 10px 0 0;
+}
+.label7 .image2 {
   display: flex;
   border-radius: 10px 10px 0 0;
 }

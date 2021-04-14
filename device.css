@@ -336,20 +336,58 @@
     line-height: 17px;
   }
 
+  .activites {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   .title3 {
     margin-top: 40px;
   }
 
+  .label4 {
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
+  }
   .label4 img {
     width: 180px;
     height: 250px;
   }
 
+  .label5 {
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
+  }
   .label5 .image1 {
     width: 180px;
     height: 125px;
   }
   .label5 .image2 {
+    width: 180px;
+    height: 125px;
+  }
+  .label6 {
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
+  }
+  .label6 img {
+    width: 180px;
+    height: 250px;
+  }
+  .label7 {
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
+  }
+
+  .label7 .image1 {
+    width: 180px;
+    height: 125px;
+  }
+  .label7 .image2 {
     width: 180px;
     height: 125px;
   }
