@@ -339,13 +339,13 @@
 
   .title3 {
     margin-top: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     font-weight: bolder;
     margin-left: 15px;
   }
   .activites {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-left: 15px;
   }
   .label4 {
@@ -368,23 +368,31 @@
   }
   .label5img1 {
     width: 200px;
-    height: 200px;
+    height: 180px;
     margin-bottom: 35px;
   }
   .label5image1 img {
     width: 200px;
-    height: 150px;
+    height: 130px;
   }
 
+  .descriptive5 {
+    font-size: 13px;
+    margin-left: 15px;
+  }
   .label5img2 {
-    width: 230px;
+    width: 200px;
     height: 110px;
   }
+
   .label5image2 img {
     height: 80px;
-    width: 230px;
+    width: 200px;
   }
-
+  .descriptive5b {
+    font-size: 13px;
+    margin-left: 15px;
+  }
   .label6 {
     height: 320px;
     width: 200px;
@@ -405,20 +413,40 @@
   }
   .label7img1 {
     width: 200px;
-    height: 200px;
+    height: 150px;
+    margin-bottom: 30px;
   }
   .label7image1 img {
-    width: 200x;
-    height: 200px;
+    width: 200px;
+    height: 110px;
   }
-
+  .descriptive7 {
+    font-size: 13px;
+    margin-left: 15px;
+  }
   .label7img2 {
     width: 200px;
-    height: 200px;
+    height: 150px;
   }
   .label7image2 img {
     width: 200px;
-    height: 200px;
+    height: 110px;
+  }
+
+  .descriptive7b {
+    font-size: 13px;
+    margin-left: 15px;
+  }
+
+  .findepage {
+    justify-content: space-between;
+
+    margin-right: 350px;
+    margin-left: 25px;
+  }
+  .findepage .details {
+    font-weight: lighter;
+    font-size: 10px;
   }
 }
 

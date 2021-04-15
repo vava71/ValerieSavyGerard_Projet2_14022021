@@ -374,17 +374,14 @@ a {
 }
 
 .label4img img {
-  display: flex;
   border-radius: 10px 10px 0 0;
 }
 
 .label5 {
   display: flex;
-  border-radius: 10px 10px 10px 10px;
 }
 
 .label5img1 {
-  display: flex;
   background-color: white;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
@@ -396,7 +393,6 @@ a {
 }
 
 .label5img2 {
-  display: flex;
   background-color: white;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
@@ -407,9 +403,6 @@ a {
   border-radius: 10px 10px 0 0;
 }
 
-.descriptive5B {
-  display: flex;
-}
 .label6 {
   background-color: white;
   border-radius: 10px 10px 10px 10px;
@@ -417,30 +410,56 @@ a {
 }
 
 .label6img {
-  display: flex;
   border-radius: 10px 10px 0 0;
-}
-
-.descriptive6 {
-  display: flex;
 }
 
 .label7 {
+  display: flex;
+}
+
+.label7img1 {
   background-color: white;
   border-radius: 10px 10px 10px 10px;
-}
-
-.descriptive7 {
-  display: flex;
-}
-
-.label7image1 {
-  display: flex;
-  border-radius: 10px 10px 0 0;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
 }
-.label7image2 {
+
+.label7image1 img {
   display: flex;
   border-radius: 10px 10px 0 0;
+}
+
+.label7img2 {
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
+}
+
+.label7image2 img {
+  display: flex;
+  border-radius: 10px 10px 0 0;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  margin-top: 30px;
+}
+
+.findepage {
+  display: flex;
+}
+.findepage .details {
+  font-weight: lighter;
+  font-size: 10px;
+}
+
+.apropos {
+  font-size: 13px;
+}
+
+.noshebergements {
+  font-size: 13px;
+}
+
+.assistance {
+  font-size: 13px;
 }
