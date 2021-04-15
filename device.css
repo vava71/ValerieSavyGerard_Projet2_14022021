@@ -445,6 +445,8 @@
     margin-left: 25px;
   }
   .findepage .details {
+    flex-direction: column;
+    flex-wrap: wrap;
     font-weight: lighter;
     font-size: 10px;
   }
@@ -579,9 +581,8 @@
   /*..........hébergements à marseille...........*/
 
   .containerAccomodation {
-    flex-direction: column;
     background-color: white;
-    height: 500px;
+
     border-radius: 0;
   }
 
@@ -589,13 +590,15 @@
     font-size: 20px;
     font-weight: bolder;
     margin-bottom: 25px;
-    margin-left: 15px;
+    margin-top: 25px;
+    margin-left: 35px;
   }
   .accomodation {
     flex-direction: column;
     align-items: center;
   }
   .picture1 {
+    flex-wrap: wrap;
     width: 330px;
     height: 180px;
     margin-bottom: 10px;
@@ -617,6 +620,7 @@
   }
 
   .picture2 {
+    flex-wrap: wrap;
     width: 330px;
     height: 180px;
     margin-bottom: 10px;
@@ -638,6 +642,7 @@
   }
 
   .picture3 {
+    flex-wrap: wrap;
     width: 330px;
     height: 180px;
     margin-bottom: 10px;
@@ -659,6 +664,7 @@
   }
 
   .picture4 {
+    flex-wrap: wrap;
     width: 330px;
     height: 180px;
     margin-bottom: 10px;
@@ -680,6 +686,7 @@
   }
 
   .picture5 {
+    flex-wrap: wrap;
     width: 330px;
     height: 180px;
     margin-bottom: 10px;
@@ -701,6 +708,7 @@
   }
 
   .picture6 {
+    flex-wrap: wrap;
     width: 330px;
     height: 180px;
     margin-bottom: 10px;
@@ -725,16 +733,16 @@
     font-size: 17px;
     font-weight: bolder;
     margin-top: 15px;
-    margin-left: 15px;
+    margin-bottom: 40px;
+    margin-left: 25px;
   }
 
   /*.............. Containeur populaires..........*/
 
   .containerPopular {
-    flex-direction: column;
     background-color: #f2f2f2;
     width: 375px;
-    height: 700px;
+    height: 550px;
     border-radius: 0;
     margin-bottom: 25px;
   }
@@ -742,34 +750,37 @@
   .title2 {
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 15px;
+    margin-left: 35px;
     margin-right: 15px;
     font-size: 20px;
     font-weight: bolder;
     margin-top: 30px;
   }
 
-  .accomodation {
+  .popular {
+    flex-direction: column;
     align-items: center;
   }
   .label1 {
     width: 330px;
-    height: 180px;
+    height: 130px;
     margin-top: 20px;
   }
 
   .label1 img {
-    width: 330px;
-    height: 110px;
-    border-radius: 15px 15px 0 0;
+    width: 150px;
+    height: 125px;
+    border-radius: 15px 0 0 15px;
     padding: 5px 5px 0 5px;
     margin-bottom: 5px;
   }
 
   .descriptive1 {
+    flex-direction: column;
+    justify-content: center;
     font-size: 15px;
     margin-left: 10px;
-    line-height: 17px;
+    line-height: 25px;
   }
 
   .label2 {
@@ -779,17 +790,19 @@
   }
 
   .label2 img {
-    width: 330px;
-    height: 110px;
-    border-radius: 15px 15px 0 0;
+    width: 150px;
+    height: 125px;
+    border-radius: 15px 0 0 15px;
     padding: 5px 5px 0 5px;
     margin-bottom: 5px;
   }
 
   .descriptive2 {
+    flex-direction: column;
+    justify-content: center;
     font-size: 15px;
     margin-left: 10px;
-    line-height: 17px;
+    line-height: 25px;
   }
 
   .label3 {
@@ -799,6 +812,42 @@
   }
 
   .label3 img {
+    width: 150px;
+    height: 125px;
+    border-radius: 15px 0 0 15px;
+    padding: 5px 5px 0 5px;
+    margin-bottom: 5px;
+  }
+
+  .descriptive3 {
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: 25px;
+  }
+
+  /*....................Containers activites...............*/
+
+  .title3 {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-weight: bolder;
+    margin-left: 25px;
+    font-size: 20px;
+  }
+  .activites {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+  }
+  .label4 {
+    width: 330px;
+    height: 160px;
+    margin-bottom: 10px;
+  }
+
+  .label4img img {
     width: 330px;
     height: 110px;
     border-radius: 15px 15px 0 0;
@@ -806,9 +855,126 @@
     margin-bottom: 5px;
   }
 
-  .descriptive3 {
+  .descriptive4 {
+    flex-direction: column;
     font-size: 15px;
     margin-left: 10px;
     line-height: 17px;
+  }
+
+  .label5 {
+    flex-direction: column;
+  }
+  .label5img1 {
+    width: 330px;
+    height: 160px;
+    margin-bottom: 10px;
+  }
+  .label5image1 img {
+    width: 330px;
+    height: 110px;
+    border-radius: 15px 15px 0 0;
+    padding: 5px 5px 0 5px;
+    margin-bottom: 5px;
+  }
+
+  .descriptive5 {
+    flex-direction: column;
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: 17px;
+  }
+  .label5img2 {
+    width: 330px;
+    height: 160px;
+    margin-bottom: 10px;
+  }
+  .label5image2 img {
+    width: 330px;
+    height: 110px;
+    border-radius: 15px 15px 0 0;
+    padding: 5px 5px 0 5px;
+    margin-bottom: 5px;
+  }
+
+  .descriptive5b {
+    flex-direction: column;
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: 17px;
+  }
+  .label6 {
+    width: 330px;
+    height: 160px;
+    margin-bottom: 10px;
+  }
+
+  .label6img img {
+    width: 330px;
+    height: 110px;
+    border-radius: 15px 15px 0 0;
+    padding: 5px 5px 0 5px;
+    margin-bottom: 5px;
+  }
+
+  .descriptive6 {
+    flex-direction: column;
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: 17px;
+  }
+
+  .label7 {
+    flex-direction: column;
+  }
+  .label7img1 {
+    width: 330px;
+    height: 160px;
+    margin-bottom: 10px;
+  }
+  .label7image1 img {
+    width: 330px;
+    height: 110px;
+    border-radius: 15px 15px 0 0;
+    padding: 5px 5px 0 5px;
+    margin-bottom: 5px;
+  }
+
+  .descriptive7 {
+    flex-direction: column;
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: 17px;
+  }
+  .label7img2 {
+    width: 330px;
+    height: 160px;
+    margin-bottom: 10px;
+  }
+  .label7image2 img {
+    width: 330px;
+    height: 110px;
+    border-radius: 15px 15px 0 0;
+    padding: 5px 5px 0 5px;
+    margin-bottom: 5px;
+  }
+
+  .descriptive7b {
+    flex-direction: column;
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: 17px;
+  }
+
+  .findepage {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 255px;
+    margin-left: 25px;
+  }
+  .findepage .details {
+    flex-wrap: wrap;
+    font-weight: lighter;
+    font-size: 10px;
   }
 }

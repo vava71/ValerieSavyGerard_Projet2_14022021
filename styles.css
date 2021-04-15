@@ -448,6 +448,7 @@ a {
   display: flex;
 }
 .findepage .details {
+  display: flex;
   font-weight: lighter;
   font-size: 10px;
 }
