@@ -30,7 +30,6 @@ header {
 
 .header {
   display: flex;
-  justify-content: space-between;
 }
 
 .header a {
@@ -65,14 +64,14 @@ header {
   align-items: center;
   background-color: #f2f2f2;
   border-radius: 10px 0 0 10px;
-  height: 35px;
+  height: 50px;
   width: 45px;
   font-size: medium;
 }
 input {
   border-radius: 10px 10px 10px 10px;
-  border: none;
-  height: 35px;
+
+  height: 50px;
 }
 
 .button {
@@ -82,7 +81,7 @@ input {
   border-radius: 0px 10px 10px 0px;
   background-color: #0065fc;
   color: white;
-  height: 35px;
+  height: 50px;
   width: 105px;
   border: none;
   font-weight: bold;
@@ -103,17 +102,19 @@ input {
 
 /*..............Filtres..........................*/
 
-.filters {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 15px;
-}
-
 .title {
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   font-size: 15px;
   font-weight: bold;
+}
+
+.filters {
+  display: flex;
+
+  font-size: 15px;
+  border: 1px solid red;
 }
 
 .filters i {
@@ -154,12 +155,13 @@ input {
 
 .resultat {
   display: flex;
-
   margin-top: 30px;
+
   margin-bottom: 35px;
 }
 
 .resultat .fas {
+  border-color: #f2f2f2;
   color: #0065fc;
   font-size: 25px;
   margin-right: 10px;
