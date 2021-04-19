@@ -113,7 +113,10 @@ input {
 .filters {
   display: flex;
 }
-
+.filters2 {
+  display: flex;
+  flex-direction: row;
+}
 .filters i {
   background-color: #deebff;
   border-radius: 50%;

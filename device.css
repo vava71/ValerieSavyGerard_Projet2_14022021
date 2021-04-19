@@ -523,14 +523,8 @@
 
   /*..............Filtres.........................*/
 
-  .choice {
-    display: flex;
-    justify-content: space-between;
-  }
-
   .filters {
     flex-direction: column;
-    font-size: 20px;
   }
 
   .filters i {
@@ -546,31 +540,32 @@
   .title {
     align-items: flex-start;
     margin-bottom: 15px;
+    font-size: 18px;
   }
 
   .economy {
-    width: 200px;
+    width: 180px;
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .family {
-    width: 150px;
+    width: 140px;
     margin-bottom: 20px;
-    margin-right: 15px;
-    font-size: 18px;
+    margin-left: 20px;
+    font-size: 15px;
   }
 
   .romantic {
-    width: 180px;
+    width: 170px;
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .pets {
-    width: 240px;
+    width: 220px;
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 15px;
   }
 
   /*...............Bloc central...................*/
