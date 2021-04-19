@@ -106,7 +106,7 @@ input {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -133,7 +133,7 @@ input {
 .economy {
   border: 2px solid #f2f2f2;
   border-radius: 30px 30px 30px 30px;
-  width: 170px;
+  width: 200px;
 }
 
 .family {
@@ -145,27 +145,31 @@ input {
 .romantic {
   border: 2px solid #f2f2f2;
   border-radius: 30px 30px 30px 30px;
-  width: 160px;
+  width: 170px;
 }
 
 .pets {
   border: 2px solid #f2f2f2;
   border-radius: 30px 30px 30px 30px;
-  width: 210px;
+  width: 250px;
 }
 
 .resultat {
   display: flex;
-  margin-top: 30px;
-
-  margin-bottom: 35px;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 .resultat .fas {
-  border-color: #f2f2f2;
-  color: #0065fc;
-  font-size: 25px;
+  background-color: #0065fc;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
   margin-right: 10px;
+}
+
+.resultat h3 {
+  font-size: 14px;
 }
 
 /*...............Bloc central....................*/
@@ -195,6 +199,8 @@ a {
 }
 
 .containerAccomodation {
+  flex: 2;
+  margin-right: 20px;
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
 }
@@ -304,6 +310,7 @@ a {
 }
 
 .containerPopular {
+  flex: 1;
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
 }

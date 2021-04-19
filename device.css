@@ -46,18 +46,14 @@
 
   /*.................Filtres.....................*/
 
-  .resultat {
-    font-size: 13px;
-  }
-
   .title {
-    align-items: center;
     margin-right: 10px;
+    align-items: center;
   }
 
   .filters {
     margin-bottom: 15px;
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .economy {
@@ -75,10 +71,6 @@
 
   .pets {
     margin-right: 20px;
-  }
-
-  .resultat {
-    align-items: center;
   }
 
   /*...............Bloc central..................*/
@@ -484,7 +476,7 @@
   }
 
   .presentation {
-    margin-bottom: 45px;
+    margin-bottom: 35px;
     margin-top: 30px;
   }
 
@@ -566,6 +558,12 @@
     width: 220px;
     margin-bottom: 20px;
     font-size: 15px;
+  }
+  .resultat .fas {
+    margin-top: 15px;
+  }
+  .resultat h3 {
+    font-size: 14px;
   }
 
   /*...............Bloc central...................*/
