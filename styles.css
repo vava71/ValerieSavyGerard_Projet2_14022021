@@ -25,7 +25,7 @@ a:hover {
 }
 
 header {
-  font-size: 13px;
+  font-size: 20px;
 }
 
 .header {
@@ -41,8 +41,6 @@ header {
 
 .selection {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
 }
 
 .selection a {
@@ -50,7 +48,9 @@ header {
 }
 
 /*..............presentation......................*/
-
+.presentation p {
+  font-size: 20px;
+}
 /*.............iconInputButton...................*/
 
 .iconInputButton {
@@ -69,9 +69,9 @@ header {
   font-size: medium;
 }
 input {
-  border-radius: 10px 10px 10px 10px;
-
+  border-radius: 0;
   height: 50px;
+  border: 2px solid #f2f2f2;
 }
 
 .button {
@@ -95,7 +95,7 @@ input {
   background-color: #0065fc;
   color: white;
   width: 40px;
-  height: 35px;
+  height: 50px;
   border: none;
   font-weight: bold;
 }
@@ -112,45 +112,43 @@ input {
 
 .filters {
   display: flex;
-
-  font-size: 15px;
-  border: 1px solid red;
 }
 
 .filters i {
   background-color: #deebff;
   border-radius: 50%;
-  padding: 10px;
+  padding: 15px;
   color: #0065fc;
 }
 
 .filters a {
   text-decoration: none;
   font-weight: bold;
+  padding-left: 10px;
 }
 
 .economy {
   border: 2px solid #f2f2f2;
   border-radius: 30px 30px 30px 30px;
-  width: 150px;
+  width: 170px;
 }
 
 .family {
   border: 2px solid #f2f2f2;
   border-radius: 30px 30px 30px 30px;
-  width: 120px;
+  width: 130px;
 }
 
 .romantic {
   border: 2px solid #f2f2f2;
   border-radius: 30px 30px 30px 30px;
-  width: 150px;
+  width: 160px;
 }
 
 .pets {
   border: 2px solid #f2f2f2;
   border-radius: 30px 30px 30px 30px;
-  width: 190px;
+  width: 210px;
 }
 
 .resultat {

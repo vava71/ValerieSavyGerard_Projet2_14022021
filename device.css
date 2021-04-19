@@ -15,15 +15,15 @@
   }
 
   #logo {
-    width: 65px;
-    height: 35px;
+    width: 150px;
+    height: 80px;
   }
 
   .selection2 {
     display: flex;
     flex-flow: row-reverse;
     justify-content: space-around;
-    margin-left: 700px;
+    margin-left: 500px;
     margin-top: -55px;
   }
 
@@ -57,6 +57,7 @@
 
   .filters {
     margin-bottom: 15px;
+    font-size: 15px;
   }
 
   .economy {
@@ -456,19 +457,19 @@
   }
 
   .header {
+    justify-content: space-between;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 25px;
   }
 
   #logo {
     width: 75px;
     height: 45px;
-    margin-bottom: 25px;
   }
 
   .selection {
-    justify-content: space-around;
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .selection2 {
@@ -483,31 +484,30 @@
   }
 
   .presentation {
-    line-height: 1px;
     margin-bottom: 45px;
+    margin-top: 30px;
   }
 
-  .presentation h3 {
-    line-height: 25px;
+  .presentation h2 {
     font-size: 23px;
   }
 
   .presentation p {
-    font-size: 15px;
+    font-size: 17px;
   }
 
   /*.............iconInputButton..................*/
 
   .iconInputButton i {
-    font-size: 17px;
-    height: 45px;
-    width: 45px;
+    font-size: 19px;
+    height: 50px;
+    width: 85px;
   }
 
   input {
     border: 1px solid #f2f2f2;
     width: 300px;
-    height: 45px;
+    height: 50px;
     border-radius: 0;
   }
 
@@ -516,8 +516,9 @@
   }
 
   .loupe i {
-    height: 45px;
-    width: 45px;
+    font-size: 23px;
+    height: 50px;
+    width: 60px;
   }
 
   /*..............Filtres.........................*/
@@ -529,6 +530,7 @@
 
   .filters {
     flex-direction: column;
+    font-size: 20px;
   }
 
   .filters i {
@@ -538,6 +540,7 @@
 
   .filters a {
     align-items: center;
+    padding-left: 10px;
   }
 
   .title {
@@ -546,24 +549,28 @@
   }
 
   .economy {
-    width: 165px;
+    width: 200px;
     margin-bottom: 20px;
+    font-size: 18px;
   }
 
   .family {
-    width: 130px;
+    width: 150px;
     margin-bottom: 20px;
     margin-right: 15px;
+    font-size: 18px;
   }
 
   .romantic {
-    width: 170px;
+    width: 180px;
     margin-bottom: 20px;
+    font-size: 18px;
   }
 
   .pets {
-    width: 200px;
+    width: 240px;
     margin-bottom: 20px;
+    font-size: 18px;
   }
 
   /*...............Bloc central...................*/
