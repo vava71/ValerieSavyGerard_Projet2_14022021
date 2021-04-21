@@ -14,11 +14,6 @@
     display: none;
   }
 
-  #logo {
-    width: 150px;
-    height: 80px;
-  }
-
   .selection2 {
     display: flex;
     flex-flow: row-reverse;
@@ -49,11 +44,6 @@
   .title {
     margin-right: 10px;
     align-items: center;
-  }
-
-  .filters {
-    margin-bottom: 15px;
-    font-size: 18px;
   }
 
   .economy {
@@ -91,18 +81,14 @@
   }
 
   .accomodation {
-    flex-flow: wrap;
-    justify-content: center;
     margin-top: 20px;
   }
 
   .picture1 {
     flex-wrap: wrap;
-
     width: 170px;
     height: 150px;
     margin-right: 10px;
-    margin-bottom: 20px;
   }
 
   .picture1 img {
@@ -115,7 +101,6 @@
 
   .details1 {
     flex-direction: column;
-
     font-size: 10px;
     margin-left: 5px;
     line-height: 17px;
@@ -442,6 +427,10 @@
 /*..............max-width: 375px...............*/
 
 @media screen and (max-width: 414px) {
+  a:hover {
+    color: #0065fc;
+  }
+
   /*.................Header.......................*/
 
   header {
@@ -453,11 +442,6 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 25px;
-  }
-
-  #logo {
-    width: 75px;
-    height: 45px;
   }
 
   .selection {
@@ -588,7 +572,6 @@
     margin-left: 35px;
   }
   .accomodation {
-    flex-direction: column;
     align-items: center;
   }
   .picture1 {
@@ -970,5 +953,63 @@
     flex-wrap: wrap;
     font-weight: lighter;
     font-size: 10px;
+  }
+}
+
+/*..............max-width: 768px...............*/
+
+@media screen and (max-width: 768px) {
+  /*..............Header...........................*/
+
+  .selection2 {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-top: -55px;
+  }
+
+  /*..............Filtres..........................*/
+
+  .filters i {
+    background-color: #deebff;
+    border-radius: 50%;
+    padding: 10px;
+    color: #0065fc;
+  }
+
+  .title {
+    font-size: 13px;
+  }
+
+  .economy {
+    width: 180px;
+    width: 150px;
+    font-size: 13px;
+  }
+
+  .family {
+    width: 110px;
+
+    margin-left: 20px;
+    font-size: 13px;
+  }
+
+  .romantic {
+    width: 130px;
+
+    font-size: 13px;
+  }
+
+  .pets {
+    width: 170px;
+
+    font-size: 13px;
+  }
+
+  /*...............Bloc central....................*/
+
+  .containerAccomodation {
+    height: 600px;
   }
 }

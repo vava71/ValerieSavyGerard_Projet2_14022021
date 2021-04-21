@@ -14,20 +14,20 @@ body {
 }
 
 a:hover {
+  text-decoration: overline;
   color: #0065fc;
 }
 
 /*..............Header...........................*/
 
 #logo {
-  width: 70px;
-  height: 30px;
+  width: 109px;
+  height: 48px;
 }
 
 header {
-  font-size: 20px;
+  font-size: 15px;
 }
-
 .header {
   display: flex;
 }
@@ -49,7 +49,7 @@ header {
 
 /*..............presentation......................*/
 .presentation p {
-  font-size: 20px;
+  font-size: 18px;
 }
 /*.............iconInputButton...................*/
 
@@ -65,13 +65,15 @@ header {
   background-color: #f2f2f2;
   border-radius: 10px 0 0 10px;
   height: 50px;
-  width: 45px;
-  font-size: medium;
+  width: 55px;
+  font-size: 18px;
 }
+
 input {
   border-radius: 0;
   height: 50px;
   border: 2px solid #f2f2f2;
+  width: 210px;
 }
 
 .button {
@@ -82,7 +84,7 @@ input {
   background-color: #0065fc;
   color: white;
   height: 50px;
-  width: 105px;
+  width: 135px;
   border: none;
   font-weight: bold;
 }
@@ -106,13 +108,16 @@ input {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 17px;
+  font-weight: 600;
 }
 
 .filters {
   display: flex;
+  margin-bottom: 15px;
+  font-size: 17px;
 }
+
 .filters2 {
   display: flex;
   flex-direction: row;
@@ -139,7 +144,7 @@ input {
 .family {
   border: 2px solid #f2f2f2;
   border-radius: 30px 30px 30px 30px;
-  width: 130px;
+  width: 140px;
 }
 
 .romantic {
@@ -151,7 +156,7 @@ input {
 .pets {
   border: 2px solid #f2f2f2;
   border-radius: 30px 30px 30px 30px;
-  width: 250px;
+  width: 230px;
 }
 
 .resultat {
@@ -161,15 +166,19 @@ input {
 }
 
 .resultat .fas {
-  background-color: #0065fc;
-  color: white;
-  font-size: 20px;
+  background-color: white;
+  color: #0065fc;
+  border-radius: 50%;
+  border: 2px solid #f2f2f2;
+  padding: 7px;
+  font-size: 10px;
   margin-top: 10px;
   margin-right: 10px;
 }
 
 .resultat h3 {
-  font-size: 14px;
+  font-weight: 200;
+  font-size: 15px;
 }
 
 /*...............Bloc central....................*/
@@ -211,6 +220,8 @@ a {
 
 .accomodation {
   display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 .picture1 {
@@ -256,6 +267,11 @@ a {
 
 .details3 {
   display: flex;
+}
+
+.accomodationbis {
+  display: flex;
+  justify-content: center;
 }
 
 .picture4 {
