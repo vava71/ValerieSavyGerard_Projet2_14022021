@@ -416,6 +416,7 @@
     margin-right: 350px;
     margin-left: 25px;
   }
+
   .findepage .details {
     flex-direction: column;
     flex-wrap: wrap;
@@ -424,9 +425,9 @@
   }
 }
 
-/*..............max-width: 375px...............*/
+/*..............max-width: 425px...............*/
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 425px) {
   a:hover {
     color: #0065fc;
   }
@@ -445,7 +446,7 @@
   }
 
   .selection {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .selection2 {
@@ -569,9 +570,9 @@
     font-weight: bolder;
     margin-bottom: 25px;
     margin-top: 25px;
-    margin-left: 35px;
   }
   .accomodation {
+    flex-direction: column;
     align-items: center;
   }
   .picture1 {
@@ -638,6 +639,11 @@
     font-size: 15px;
     margin-left: 10px;
     line-height: 17px;
+  }
+
+  .accomodationbis {
+    flex-direction: column;
+    align-items: center;
   }
 
   .picture4 {
@@ -709,7 +715,7 @@
   .plus {
     font-size: 17px;
     font-weight: bolder;
-    margin-top: 15px;
+    margin-top: 55px;
     margin-bottom: 40px;
     margin-left: 25px;
   }
@@ -953,63 +959,5 @@
     flex-wrap: wrap;
     font-weight: lighter;
     font-size: 10px;
-  }
-}
-
-/*..............max-width: 768px...............*/
-
-@media screen and (max-width: 768px) {
-  /*..............Header...........................*/
-
-  .selection2 {
-    display: flex;
-    flex-flow: row-reverse;
-    justify-content: space-around;
-    margin-left: 300px;
-    margin-top: -55px;
-  }
-
-  /*..............Filtres..........................*/
-
-  .filters i {
-    background-color: #deebff;
-    border-radius: 50%;
-    padding: 10px;
-    color: #0065fc;
-  }
-
-  .title {
-    font-size: 13px;
-  }
-
-  .economy {
-    width: 180px;
-    width: 150px;
-    font-size: 13px;
-  }
-
-  .family {
-    width: 110px;
-
-    margin-left: 20px;
-    font-size: 13px;
-  }
-
-  .romantic {
-    width: 130px;
-
-    font-size: 13px;
-  }
-
-  .pets {
-    width: 170px;
-
-    font-size: 13px;
-  }
-
-  /*...............Bloc central....................*/
-
-  .containerAccomodation {
-    height: 600px;
   }
 }

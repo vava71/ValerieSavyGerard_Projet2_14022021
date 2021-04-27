@@ -9,6 +9,10 @@
   font-style: normal;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "raleway", sans-serif;
 }
@@ -203,10 +207,6 @@ a {
 
 /*.............. hébergements à marseille .........*/
 
-* {
-  box-sizing: border-box;
-}
-
 .containerAccomodation {
   flex: 2;
   margin-right: 20px;
@@ -320,10 +320,6 @@ a {
 }
 
 /*.......... Containeur populaires........... */
-
-* {
-  box-sizing: border-box;
-}
 
 .containerPopular {
   flex: 1;
