@@ -20,6 +20,7 @@
     justify-content: space-around;
     margin-left: 500px;
     margin-top: -55px;
+    font-size: 17px;
   }
 
   /*...................Main.......................*/
@@ -425,9 +426,9 @@
   }
 }
 
-/*..............max-width: 425px...............*/
+/*..............max-width: 414px...............*/
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 414px) {
   a:hover {
     color: #0065fc;
   }
@@ -436,6 +437,7 @@
 
   header {
     margin-top: 35px;
+    font-size: 15px;
   }
 
   .header {
@@ -470,7 +472,8 @@
   }
 
   .presentation p {
-    font-size: 17px;
+    font-size: 15px;
+    font-weight: 300;
   }
 
   /*.............iconInputButton..................*/
@@ -959,5 +962,37 @@
     flex-wrap: wrap;
     font-weight: lighter;
     font-size: 10px;
+  }
+}
+/*..............max-width: 768px...............*/
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  .filters {
+    flex-wrap: wrap;
+  }
+
+  .economy {
+    width: 180px;
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+
+  .family {
+    width: 130px;
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+
+  .romantic {
+    width: 180px;
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+
+  .pets {
+    width: 180px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    margin-left: 75px;
   }
 }
