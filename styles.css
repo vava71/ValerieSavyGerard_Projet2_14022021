@@ -39,7 +39,6 @@ header {
 }
 
 .header a {
-  display: none;
   text-decoration: none;
   color: #0065fc;
   font-weight: bold;
@@ -51,7 +50,6 @@ header {
 }
 
 .selection a {
-  display: none;
   text-decoration: none;
 }
 
@@ -126,7 +124,7 @@ input {
   color: white;
   font-size: 23px;
   height: 50px;
-  width: 60px;
+  width: 45px;
   border: none;
   font-weight: bold;
 }
@@ -170,7 +168,6 @@ input {
   border: 2px solid #f2f2f2;
   border-radius: 30px 30px 30px 30px;
   width: 200px;
-  margin-left: 20px;
   margin-right: 20px;
 }
 

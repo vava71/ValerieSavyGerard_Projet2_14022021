@@ -1,6 +1,17 @@
-/*..............min-width: 908px...............*/
-@media screen and (min-width: 908px) {
+/*..............min-width: 909px...............*/
+@media screen and (min-width: 909px) {
   .loupe i {
+    display: none;
+  }
+
+  .header a {
+    display: none;
+  }
+
+  .selection {
+    display: none;
+  }
+  .selection a {
     display: none;
   }
 }
@@ -14,9 +25,14 @@
 
   /*.................Header.......................*/
 
+  #logo {
+    width: 110px;
+    height: 60px;
+  }
+
   header {
     margin-top: 35px;
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .header {
@@ -27,7 +43,8 @@
   }
 
   .selection {
-    font-size: 15px;
+    font-size: 18px;
+    margin-top: 55px;
   }
 
   .selection2 {
@@ -81,7 +98,7 @@
   }
 
   .filters i {
-    padding: 15px;
+    padding: 10px;
     font-size: 20px;
   }
 
@@ -97,28 +114,27 @@
   }
 
   .economy {
-    width: 180px;
+    width: 160px;
     margin-bottom: 20px;
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .family {
-    width: 140px;
+    width: 120px;
     margin-bottom: 20px;
-    margin-left: 20px;
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .romantic {
     width: 170px;
     margin-bottom: 20px;
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .pets {
-    width: 220px;
+    width: 200px;
     margin-bottom: 20px;
-    font-size: 15px;
+    font-size: 13px;
   }
   .resultat .fas {
     margin-top: 15px;
@@ -137,8 +153,8 @@
 
   .containerAccomodation {
     background-color: white;
-
     border-radius: 0;
+    width: 375px;
   }
 
   .title1 {
@@ -538,34 +554,3 @@
   }
 }
 /*..............max-width: 768px...............*/
-
-@media only screen and (min-width: 425px) and (max-width: 768px) {
-  .filters {
-    flex-wrap: wrap;
-  }
-
-  .economy {
-    width: 180px;
-    margin-bottom: 20px;
-    font-size: 13px;
-  }
-
-  .family {
-    width: 130px;
-    margin-bottom: 20px;
-    font-size: 13px;
-  }
-
-  .romantic {
-    width: 180px;
-    margin-bottom: 20px;
-    font-size: 13px;
-  }
-
-  .pets {
-    width: 180px;
-    margin-bottom: 20px;
-    font-size: 13px;
-    margin-left: 75px;
-  }
-}
