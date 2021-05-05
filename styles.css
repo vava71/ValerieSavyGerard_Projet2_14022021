@@ -118,15 +118,15 @@ input {
 }
 
 .loupe i {
-  display: none;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 10px 10px 10px 10px;
   background-color: #0065fc;
   color: white;
-  width: 40px;
+  font-size: 23px;
   height: 50px;
+  width: 60px;
   border: none;
   font-weight: bold;
 }

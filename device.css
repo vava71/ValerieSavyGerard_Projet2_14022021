@@ -1,6 +1,13 @@
-/*..............max-width: 414px...............*/
+/*..............min-width: 908px...............*/
+@media screen and (min-width: 908px) {
+  .loupe i {
+    display: none;
+  }
+}
 
-@media screen and (max-width: 768px) {
+/*..............max-width: 908px...............*/
+
+@media screen and (max-width: 908px) {
   a:hover {
     color: #0065fc;
   }
@@ -65,12 +72,6 @@
 
   .button {
     display: none;
-  }
-
-  .loupe i {
-    font-size: 23px;
-    height: 50px;
-    width: 60px;
   }
 
   /*..............Filtres.........................*/
