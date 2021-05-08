@@ -18,7 +18,8 @@ body {
 }
 
 a:hover {
-  text-decoration: overline;
+  text-decoration: overline #0065fc;
+
   color: #0065fc;
 }
 
@@ -237,12 +238,14 @@ a {
 /*.............. hébergements à marseille .........*/
 
 .containerAccomodation {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
   flex: 2;
   margin-right: 20px;
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
-  height: 450px;
-  width: 610px;
+
   margin-left: 15px;
 }
 
@@ -251,32 +254,30 @@ a {
   font-size: 17px;
   font-weight: bolder;
   margin-top: 25px;
-  margin-left: 45px;
+  margin-left: 25px;
 }
 
 .accomodation {
   display: flex;
-  justify-content: center;
+
   margin-bottom: 30px;
   margin-top: 20px;
 }
 
 .picture1 {
   display: flex;
-  background-color: white;
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   flex-wrap: wrap;
-  width: 170px;
-  height: 150px;
   margin-right: 10px;
+  margin-left: 25px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
 }
 
 .picture1 img {
-  border-radius: 10px 10px 0 0;
-  align-items: center;
-  width: 170px;
-  height: 80px;
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: 100%;
   padding: 5px 5px 0 5px;
   margin-bottom: 5px;
 }
@@ -284,26 +285,27 @@ a {
 .details1 {
   display: flex;
   flex-direction: column;
-  font-size: 10px;
-  margin-left: 5px;
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: 10px;
   line-height: 17px;
+  margin-bottom: 5px;
 }
 
 .picture2 {
   display: flex;
-  background-color: white;
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   flex-wrap: wrap;
-  width: 170px;
-  height: 150px;
   margin-right: 10px;
+  margin-left: 10px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
 }
 
 .picture2 img {
-  border-radius: 10px 10px 0 0;
-  width: 170px;
-  height: 80px;
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: 100%;
   padding: 5px 5px 0 5px;
   margin-bottom: 5px;
 }
@@ -311,29 +313,26 @@ a {
 .details2 {
   display: flex;
   flex-direction: column;
-  font-size: 10px;
-  margin-left: 5px;
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: 10px;
   line-height: 17px;
-  flex-direction: column;
-  font-size: 10px;
-  margin-left: 5px;
-  line-height: 17px;
+  margin-bottom: 5px;
 }
-
 .picture3 {
   display: flex;
-  background-color: white;
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   flex-wrap: wrap;
-  width: 170px;
-  height: 150px;
+  margin-right: 25px;
+  margin-left: 10px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
 }
 
 .picture3 img {
-  border-radius: 10px 10px 0 0;
-  width: 170px;
-  height: 80px;
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: 100%;
   padding: 5px 5px 0 5px;
   margin-bottom: 5px;
 }
@@ -341,31 +340,30 @@ a {
 .details3 {
   display: flex;
   flex-direction: column;
-  font-size: 10px;
-  margin-left: 5px;
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: 10px;
   line-height: 17px;
+  margin-bottom: 5px;
 }
-
 .accomodationbis {
   display: flex;
-  justify-content: center;
 }
 
 .picture4 {
   display: flex;
-  background-color: white;
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   flex-wrap: wrap;
-  width: 170px;
-  height: 150px;
   margin-right: 10px;
+  margin-left: 25px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
 }
 
 .picture4 img {
-  border-radius: 10px 10px 0 0;
-  width: 170px;
-  height: 80px;
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: 100%;
   padding: 5px 5px 0 5px;
   margin-bottom: 5px;
 }
@@ -373,26 +371,26 @@ a {
 .details4 {
   display: flex;
   flex-direction: column;
-  font-size: 10px;
-  margin-left: 5px;
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: 10px;
   line-height: 17px;
+  margin-bottom: 5px;
 }
-
 .picture5 {
   display: flex;
-  background-color: white;
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   flex-wrap: wrap;
-  width: 170px;
-  height: 150px;
   margin-right: 10px;
+  margin-left: 10px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
 }
 
 .picture5 img {
-  border-radius: 10px 10px 0 0;
-  width: 170px;
-  height: 80px;
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: 100%;
   padding: 5px 5px 0 5px;
   margin-bottom: 5px;
 }
@@ -400,25 +398,27 @@ a {
 .details5 {
   display: flex;
   flex-direction: column;
-  font-size: 10px;
-  margin-left: 5px;
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: 10px;
   line-height: 17px;
+  margin-bottom: 5px;
 }
 
 .picture6 {
   display: flex;
-  background-color: white;
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   flex-wrap: wrap;
-  width: 170px;
-  height: 150px;
+  margin-right: 25px;
+  margin-left: 10px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
 }
 
 .picture6 img {
-  border-radius: 10px 10px 0 0;
-  height: 80px;
-  width: 170px;
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: 100%;
   padding: 5px 5px 0 5px;
   margin-bottom: 5px;
 }
@@ -426,9 +426,11 @@ a {
 .details6 {
   display: flex;
   flex-direction: column;
-  font-size: 10px;
-  margin-left: 5px;
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: 10px;
   line-height: 17px;
+  margin-bottom: 5px;
 }
 
 .plus {
