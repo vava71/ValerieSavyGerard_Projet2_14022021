@@ -239,7 +239,7 @@ a {
 
 .containerAccomodation {
   flex: 2;
-
+  flex-grow: 1;
   display: flex;
   flex-wrap: wrap;
   margin-right: 20px;
@@ -349,6 +349,7 @@ a {
 }
 .accomodationbis {
   display: flex;
+  flex-basis: 100%;
 }
 .accomodationbis a {
   text-decoration: none;
