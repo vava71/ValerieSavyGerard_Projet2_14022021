@@ -238,18 +238,18 @@ a {
 /*.............. hébergements à marseille .........*/
 
 .containerAccomodation {
-  flex: 2;
-  flex-grow: 1;
   display: flex;
   flex-wrap: wrap;
-  margin-right: 20px;
+  flex: 2;
+  margin-right: 30px;
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
-  margin-left: 15px;
+  margin-left: 20px;
 }
 
 .title1 {
   display: flex;
+  flex-wrap: wrap;
   font-size: 17px;
   font-weight: bolder;
   margin-top: 25px;
@@ -349,7 +349,6 @@ a {
 }
 .accomodationbis {
   display: flex;
-  flex-basis: 100%;
 }
 .accomodationbis a {
   text-decoration: none;
@@ -444,7 +443,13 @@ a {
 
 /*.......... Containeur populaires........... */
 
+.containerPopular a {
+  text-decoration: none;
+}
+
 .containerPopular {
+  display: flex;
+  flex-wrap: wrap;
   flex: 1;
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
@@ -459,6 +464,7 @@ a {
   font-weight: bolder;
   margin-top: 30px;
   margin-bottom: 20px;
+  margin-left: 15px;
 }
 
 .popular {
@@ -469,14 +475,16 @@ a {
 
 .label1 {
   display: flex;
+
   background-color: white;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   flex-direction: row;
-
   width: 250px;
   height: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .label1 img {
@@ -500,12 +508,15 @@ a {
 
 .label2 {
   display: flex;
+
   background-color: white;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   width: 250px;
   height: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .label2 img {
@@ -529,14 +540,16 @@ a {
 
 .label3 {
   display: flex;
+
   background-color: white;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   flex-direction: row;
-
   width: 250px;
   height: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .label3 img {
