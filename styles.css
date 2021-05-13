@@ -239,26 +239,24 @@ a {
 /*.............. hébergements à marseille .........*/
 
 .containerAccomodation {
-  display: flex;
-  flex-wrap: wrap;
-
   flex: 2;
   margin-right: 30px;
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
-  margin-left: 20px;
 }
 
 .title1 {
   font-size: 17px;
   font-weight: bolder;
   margin-top: 25px;
-
   margin-left: 25px;
 }
 
 .accomodation {
   display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .accomodation a {
@@ -271,8 +269,9 @@ a {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  width: 100%;
-  height: 180px;
+  padding: 5px;
+  margin-right: 20px;
+  width: 200px;
 }
 
 .picture1img {
@@ -283,7 +282,7 @@ a {
   border-radius: 20px 20px 0 0;
   margin-bottom: 5px;
   width: 100%;
-  height: 112px;
+  height: 100px;
 }
 
 .details1 {
@@ -291,8 +290,8 @@ a {
   flex-direction: column;
   font-size: 12px;
   font-weight: 300;
-  margin-left: 10px;
-  margin-bottom: 15px;
+
+  margin-left: 5px;
 }
 
 .picture2 {
@@ -301,9 +300,9 @@ a {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-
-  width: 100%;
-  height: 180px;
+  padding: 5px;
+  margin-right: 20px;
+  width: 200px;
 }
 
 .picture2img {
@@ -314,15 +313,14 @@ a {
   border-radius: 20px 20px 0 0;
   margin-bottom: 5px;
   width: 100%;
-  height: 112px;
+  height: 100px;
 }
 .details2 {
   display: flex;
   flex-direction: column;
   font-size: 12px;
   font-weight: 300;
-  margin-left: 10px;
-  margin-bottom: 5px;
+  margin-left: 5px;
 }
 
 .picture3 {
@@ -331,9 +329,9 @@ a {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  padding: 5px 5px 5px 5px;
-  width: 100%;
-  height: 180px;
+  padding: 5px;
+  margin-right: 20px;
+  width: 200px;
 }
 
 .picture3img {
@@ -344,7 +342,7 @@ a {
   border-radius: 20px 20px 0 0;
   margin-bottom: 5px;
   width: 100%;
-  height: 112px;
+  height: 100px;
 }
 
 .details3 {
@@ -352,13 +350,14 @@ a {
   flex-direction: column;
   font-size: 12px;
   font-weight: 300;
-  margin-left: 10px;
-
-  margin-bottom: 5px;
+  margin-left: 5px;
 }
+
 .accomodationbis {
   display: flex;
+  justify-content: center;
 }
+
 .accomodationbis a {
   text-decoration: none;
 }
@@ -369,20 +368,20 @@ a {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  padding: 5px 5px 5px 5px;
-  width: 100%;
-  height: 180px;
+  padding: 5px;
+  margin-right: 20px;
+  width: 200px;
 }
 
 .picture4img {
-  background-image: url(images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+  background-image: url(images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 20px 20px 0 0;
   margin-bottom: 5px;
   width: 100%;
-  height: 112px;
+  height: 100px;
 }
 
 .details4 {
@@ -390,19 +389,18 @@ a {
   flex-direction: column;
   font-size: 12px;
   font-weight: 300;
-  margin-left: 10px;
-
   margin-bottom: 5px;
 }
+
 .picture5 {
   display: flex;
   flex-wrap: wrap;
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  padding: 5px 5px 5px 5px;
-  width: 100%;
-  height: 180px;
+  padding: 5px;
+  margin-right: 20px;
+  width: 200px;
 }
 
 .picture5img {
@@ -413,16 +411,14 @@ a {
   border-radius: 20px 20px 0 0;
   margin-bottom: 5px;
   width: 100%;
-  height: 112px;
+  height: 100px;
 }
 .details5 {
   display: flex;
   flex-direction: column;
   font-size: 12px;
   font-weight: 300;
-  margin-left: 10px;
-
-  margin-bottom: 5px;
+  margin-left: 5px;
 }
 .picture6 {
   display: flex;
@@ -430,9 +426,9 @@ a {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  padding: 5px 5px 5px 5px;
-  width: 100%;
-  height: 180px;
+  padding: 5px;
+  margin-right: 20px;
+  width: 200px;
 }
 
 .picture6img {
@@ -443,7 +439,7 @@ a {
   border-radius: 20px 20px 0 0;
   margin-bottom: 5px;
   width: 100%;
-  height: 112px;
+  height: 100px;
 }
 
 .details6 {
@@ -451,7 +447,7 @@ a {
   flex-direction: column;
   font-size: 12px;
   font-weight: 300;
-  margin-left: 10px;
+  margin-left: 5px;
   margin-bottom: 5px;
 }
 
@@ -460,7 +456,7 @@ a {
   font-weight: bolder;
   margin-left: 25px;
   margin-bottom: 30px;
-  margin-top: 25px;
+  margin-top: 35px;
 }
 
 /*.......... Containeur populaires........... */
@@ -470,8 +466,6 @@ a {
 }
 
 .containerPopular {
-  display: flex;
-  flex-wrap: wrap;
   flex: 1;
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
@@ -479,20 +473,16 @@ a {
 }
 
 .title2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   font-size: 17px;
   font-weight: bolder;
   margin-top: 30px;
-  margin-bottom: 20px;
-  margin-left: 15px;
 }
 
 .popular {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 20px;
 }
 
 .label1 {
