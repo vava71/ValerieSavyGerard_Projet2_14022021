@@ -503,7 +503,7 @@ a {
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   margin-bottom: 30px;
-  width: 270px;
+  width: 280px;
   padding: 5px;
 }
 
@@ -521,6 +521,7 @@ a {
 .descriptive1 {
   display: flex;
   flex-direction: column;
+
   font-size: 12px;
   margin-left: 10px;
   line-height: 17px;
@@ -534,7 +535,7 @@ a {
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   margin-bottom: 30px;
-  width: 270px;
+  width: 280px;
   padding: 5px;
 }
 
@@ -545,13 +546,14 @@ a {
   background-position: center;
   border-radius: 15px 0px 0px 15px;
   margin-bottom: 5px;
-  width: 37%;
+  width: 50%;
   height: 110px;
 }
 
 .descriptive2 {
   display: flex;
   flex-direction: column;
+
   font-size: 12px;
   margin-left: 10px;
   line-height: 17px;
@@ -565,7 +567,7 @@ a {
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   margin-bottom: 30px;
-  width: 270px;
+  width: 280px;
   padding: 5px;
 }
 
