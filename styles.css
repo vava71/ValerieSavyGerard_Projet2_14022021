@@ -293,7 +293,6 @@ a {
   flex-direction: column;
   font-size: 12px;
   font-weight: 300;
-
   margin-left: 5px;
 }
 
@@ -395,7 +394,7 @@ a {
   flex-direction: column;
   font-size: 12px;
   font-weight: 300;
-  margin-bottom: 5px;
+  margin-left: 5px;
 }
 
 .picture5 {
@@ -456,7 +455,6 @@ a {
   font-size: 12px;
   font-weight: 300;
   margin-left: 5px;
-  margin-bottom: 5px;
 }
 
 .plus {
@@ -513,7 +511,6 @@ a {
   background-size: cover;
   background-position: center;
   border-radius: 15px 0px 0 15px;
-  margin-bottom: 5px;
   width: 37%;
   height: 110px;
 }
@@ -521,11 +518,11 @@ a {
 .descriptive1 {
   display: flex;
   flex-direction: column;
-
   font-size: 12px;
-  margin-left: 10px;
-  line-height: 17px;
   font-weight: 300;
+  line-height: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .label2 {
@@ -545,7 +542,6 @@ a {
   background-size: cover;
   background-position: center;
   border-radius: 15px 0px 0px 15px;
-  margin-bottom: 5px;
   width: 50%;
   height: 110px;
 }
@@ -553,11 +549,12 @@ a {
 .descriptive2 {
   display: flex;
   flex-direction: column;
-
   font-size: 12px;
   margin-left: 10px;
-  line-height: 17px;
   font-weight: 300;
+  line-height: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .label3 {
@@ -577,7 +574,6 @@ a {
   background-size: cover;
   background-position: center;
   border-radius: 15px 0px 0px 15px;
-  margin-bottom: 5px;
   width: 37%;
   height: 110px;
 }
@@ -587,8 +583,10 @@ a {
   flex-direction: column;
   font-size: 12px;
   margin-left: 10px;
-  line-height: 17px;
+  line-height: 25px;
   font-weight: 300;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /*.................. Containeur activites................ */
@@ -596,27 +594,35 @@ a {
   margin-top: 40px;
   margin-bottom: 25px;
   font-weight: bolder;
-  margin-left: 15px;
+  margin-left: 50px;
 }
 
 .activites {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .label4 {
+  display: flex;
+  flex-wrap: wrap;
   background-color: white;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  height: 320px;
   width: 200px;
+  height: 300px;
 }
 
-.label4img img {
-  border-radius: 10px 10px 0 0;
-  width: 200px;
+.label4img {
+  background-image: url(images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+  margin-bottom: 5px;
+  width: 100%;
   height: 280px;
 }
 
@@ -631,17 +637,22 @@ a {
 }
 
 .label5img1 {
+  display: flex;
+  flex-wrap: wrap;
   background-color: white;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   width: 200px;
   height: 180px;
-  margin-bottom: 35px;
 }
 
-.label5image1 img {
-  display: flex;
-  border-radius: 10px 10px 0 0;
+.label5image1 {
+  background-image: url(images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+  margin-bottom: 5px;
   width: 200px;
   height: 130px;
 }
@@ -652,16 +663,22 @@ a {
 }
 
 .label5img2 {
+  display: flex;
+  flex-wrap: wrap;
   background-color: white;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   width: 200px;
   height: 110px;
 }
 
-.label5image2 img {
-  display: flex;
-  border-radius: 10px 10px 0 0;
+.label5image2 {
+  background-image: url(images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+  margin-bottom: 5px;
   height: 80px;
   width: 200px;
 }
@@ -672,19 +689,23 @@ a {
 }
 
 .label6 {
+  display: flex;
+  flex-wrap: wrap;
   background-color: white;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   height: 320px;
   width: 200px;
 }
-.label6img img {
+.label6img {
+  background-image: url(images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+  margin-bottom: 5px;
   width: 200px;
   height: 280px;
-}
-
-.label6img {
-  border-radius: 10px 10px 0 0;
 }
 
 .descriptive6 {
@@ -698,17 +719,23 @@ a {
 }
 
 .label7img1 {
+  display: flex;
+  flex-wrap: wrap;
   background-color: white;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
+  margin-bottom: 30px;
   width: 200px;
   height: 150px;
-  margin-bottom: 30px;
 }
 
-.label7image1 img {
-  display: flex;
-  border-radius: 10px 10px 0 0;
+.label7image1 {
+  background-image: url(images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+  margin-bottom: 5px;
   width: 200px;
   height: 110px;
 }
@@ -719,16 +746,22 @@ a {
 }
 
 .label7img2 {
+  display: flex;
+  flex-wrap: wrap;
   background-color: white;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   width: 200px;
   height: 150px;
 }
 
-.label7image2 img {
-  display: flex;
-  border-radius: 10px 10px 0 0;
+.label7image2 {
+  background-image: url(images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+  margin-bottom: 5px;
   width: 200px;
   height: 110px;
 }
