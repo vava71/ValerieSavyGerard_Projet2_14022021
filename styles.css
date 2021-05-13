@@ -589,30 +589,33 @@ a {
   margin-right: 20px;
 }
 
-/*.................. Containeur activites................ */
+/*............................................... Containeur activites............................................... */
+
 .title3 {
-  margin-top: 40px;
-  margin-bottom: 25px;
   font-weight: bolder;
-  margin-left: 50px;
+  margin-top: 40px;
 }
 
 .activites {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   margin-left: 50px;
   margin-right: 50px;
 }
+.activity {
+  display: flex;
+  justify-content: space-between;
+}
 
+.activity a {
+  text-decoration: none;
+}
 .label4 {
   display: flex;
   flex-wrap: wrap;
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  width: 200px;
-  height: 300px;
+  width: 250px;
+  height: 330px;
 }
 
 .label4img {
@@ -623,7 +626,7 @@ a {
   border-radius: 15px 15px 0 0;
   margin-bottom: 5px;
   width: 100%;
-  height: 280px;
+  height: 290px;
 }
 
 .descriptive4 {
@@ -642,8 +645,8 @@ a {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  width: 200px;
-  height: 180px;
+  width: 250px;
+  height: 170px;
 }
 
 .label5image1 {
@@ -653,7 +656,7 @@ a {
   background-position: center;
   border-radius: 15px 15px 0 0;
   margin-bottom: 5px;
-  width: 200px;
+  width: 100%;
   height: 130px;
 }
 
@@ -668,8 +671,9 @@ a {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  width: 200px;
-  height: 110px;
+  width: 250px;
+  height: 130px;
+  margin-top: 30px;
 }
 
 .label5image2 {
@@ -679,8 +683,8 @@ a {
   background-position: center;
   border-radius: 15px 15px 0 0;
   margin-bottom: 5px;
-  height: 80px;
-  width: 200px;
+  width: 100%;
+  height: 90px;
 }
 
 .descriptive5b {
@@ -694,8 +698,8 @@ a {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  height: 320px;
-  width: 200px;
+  width: 250px;
+  height: 330px;
 }
 .label6img {
   background-image: url(images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
@@ -704,8 +708,8 @@ a {
   background-position: center;
   border-radius: 15px 15px 0 0;
   margin-bottom: 5px;
-  width: 200px;
-  height: 280px;
+  width: 100%;
+  height: 290px;
 }
 
 .descriptive6 {
@@ -725,7 +729,7 @@ a {
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   margin-bottom: 30px;
-  width: 200px;
+  width: 250px;
   height: 150px;
 }
 
@@ -736,7 +740,7 @@ a {
   background-position: center;
   border-radius: 15px 15px 0 0;
   margin-bottom: 5px;
-  width: 200px;
+  width: 100%;
   height: 110px;
 }
 
@@ -751,7 +755,7 @@ a {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  width: 200px;
+  width: 250px;
   height: 150px;
 }
 
@@ -762,7 +766,7 @@ a {
   background-position: center;
   border-radius: 15px 15px 0 0;
   margin-bottom: 5px;
-  width: 200px;
+  width: 100%;
   height: 110px;
 }
 
@@ -779,18 +783,16 @@ a {
 .findepage {
   display: flex;
   justify-content: space-between;
-
   margin-right: 350px;
   margin-left: 25px;
+  line-height: 3px;
 }
 
 .findepage .details {
   display: flex;
-  font-weight: lighter;
-  font-size: 10px;
-  flex-direction: column;
   flex-wrap: wrap;
-  font-weight: lighter;
+  flex-direction: column;
+  font-weight: 300;
   font-size: 10px;
 }
 
