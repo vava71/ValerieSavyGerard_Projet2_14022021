@@ -21,7 +21,6 @@ body {
 
 a:hover {
   text-decoration: overline #0065fc;
-
   color: #0065fc;
 }
 
@@ -34,7 +33,7 @@ a:hover {
 
 header {
   font-size: 20px;
-  margin-left: 50px;
+
   margin-top: 65px;
 }
 .header {
@@ -65,7 +64,7 @@ header {
   font-size: 17px;
 }
 
-/*...................Main.......................*/
+/*..........................................................Main...........................................................................*/
 
 .recherche {
   margin-left: 50px;
@@ -76,11 +75,11 @@ header {
   margin-bottom: 25px;
 }
 
-/*..............presentation......................*/
+/*..........................................................presentation..................................................................*/
 .presentation p {
   font-size: 18px;
 }
-/*.............iconInputButton...................*/
+/*..........................................................iconInputButton................................................................*/
 
 .iconInputButton {
   display: flex;
@@ -132,7 +131,7 @@ input {
   font-weight: bold;
 }
 
-/*..............Filtres..........................*/
+/*..............................................................Filtres.............................................................................*/
 
 .title {
   display: flex;
@@ -217,7 +216,7 @@ input {
   font-size: 15px;
 }
 
-/*...............Bloc central....................*/
+/*..........................................................Bloc central............................................................................*/
 
 .centralBlock {
   display: flex;
@@ -237,14 +236,13 @@ a {
   text-decoration: none;
 }
 
-/*.............. hébergements à marseille .........*/
+/*.................................................. hébergements à marseille ....................................................................*/
 
 .containerAccomodation {
   flex: 2;
   margin-right: 30px;
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
-  margin-left: 50px;
 }
 
 .title1 {
@@ -257,6 +255,7 @@ a {
 .accomodation {
   display: flex;
   justify-content: center;
+  flex: 1 1 0;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -268,11 +267,11 @@ a {
 .picture1 {
   display: flex;
   flex-wrap: wrap;
+  margin-right: 20px;
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   padding: 5px;
-  margin-right: 20px;
   width: 200px;
   height: 170px;
 }
@@ -459,13 +458,11 @@ a {
 
 .plus {
   font-size: 13px;
-  font-weight: bolder;
-  margin-left: 25px;
   margin-bottom: 30px;
   margin-top: 35px;
 }
 
-/*.......... Containeur populaires........... */
+/*..................................................... Containeur populaires..................................................................... */
 
 .containerPopular a {
   text-decoration: none;
@@ -475,7 +472,6 @@ a {
   flex: 1;
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
-  margin-right: 50px;
 }
 
 .title2 {
@@ -501,7 +497,7 @@ a {
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   margin-bottom: 30px;
-  width: 280px;
+  width: 260px;
   padding: 5px;
 }
 
@@ -521,7 +517,7 @@ a {
   font-size: 12px;
   font-weight: 300;
   line-height: 25px;
-  margin-left: 20px;
+  margin-left: 10px;
   margin-right: 20px;
 }
 
@@ -532,7 +528,7 @@ a {
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   margin-bottom: 30px;
-  width: 280px;
+  width: 260px;
   padding: 5px;
 }
 
@@ -542,7 +538,7 @@ a {
   background-size: cover;
   background-position: center;
   border-radius: 15px 0px 0px 15px;
-  width: 50%;
+  width: 53%;
   height: 110px;
 }
 
@@ -550,10 +546,9 @@ a {
   display: flex;
   flex-direction: column;
   font-size: 12px;
-  margin-left: 10px;
   font-weight: 300;
   line-height: 25px;
-  margin-left: 20px;
+  margin-left: 10px;
   margin-right: 20px;
 }
 
@@ -564,7 +559,7 @@ a {
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   margin-bottom: 30px;
-  width: 280px;
+  width: 260px;
   padding: 5px;
 }
 
@@ -582,22 +577,20 @@ a {
   display: flex;
   flex-direction: column;
   font-size: 12px;
-  margin-left: 10px;
   line-height: 25px;
   font-weight: 300;
-  margin-left: 20px;
+  margin-left: 10px;
   margin-right: 20px;
 }
-
-/*............................................... Containeur activites............................................... */
+/*............................................................... Containeur activites............................................... */
 
 .title3 {
   font-weight: bolder;
-  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .activites {
-  margin-left: 50px;
+  margin-top: 40px;
   margin-right: 50px;
 }
 .activity {
@@ -749,7 +742,7 @@ a {
   margin-left: 15px;
 }
 
-.label7img2 {
+.labe7img2 {
   display: flex;
   flex-wrap: wrap;
   background-color: white;
@@ -784,7 +777,6 @@ a {
   display: flex;
   justify-content: space-between;
   margin-right: 350px;
-  margin-left: 25px;
   line-height: 3px;
 }
 
@@ -793,17 +785,21 @@ a {
   flex-wrap: wrap;
   flex-direction: column;
   font-weight: 300;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .apropos {
-  font-size: 13px;
+  font-size: 15px;
+  margin-bottom: 35px;
+  margin-top: 20px;
 }
 
 .noshebergements {
-  font-size: 13px;
+  margin-top: 20px;
+  font-size: 15px;
 }
 
 .assistance {
-  font-size: 13px;
+  margin-top: 20px;
+  font-size: 15px;
 }
