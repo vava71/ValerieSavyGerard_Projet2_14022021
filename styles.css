@@ -492,6 +492,9 @@ a {
   align-items: center;
 }
 
+.popular .star {
+}
+
 .label1 {
   display: flex;
   flex-direction: row;
@@ -509,7 +512,7 @@ a {
   background-size: cover;
   background-position: center;
   border-radius: 15px 0px 0px 15px;
-  width: 37%;
+  width: 100px;
   height: 110px;
 }
 
@@ -518,9 +521,9 @@ a {
   flex-direction: column;
   font-size: 12px;
   font-weight: 300;
-  line-height: 25px;
-  margin-left: 10px;
-  margin-right: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  line-height: 20px;
 }
 
 .label2 {
@@ -540,7 +543,7 @@ a {
   background-size: cover;
   background-position: center;
   border-radius: 15px 0px 0px 15px;
-  width: 53%;
+  width: 130px;
   height: 110px;
 }
 
@@ -549,9 +552,9 @@ a {
   flex-direction: column;
   font-size: 12px;
   font-weight: 300;
-  line-height: 25px;
-  margin-left: 10px;
-  margin-right: 20px;
+  margin-left: 15px;
+  margin-right: 10px;
+  line-height: 20px;
 }
 
 .label3 {
@@ -571,7 +574,7 @@ a {
   background-size: cover;
   background-position: center;
   border-radius: 15px 0px 0px 15px;
-  width: 37%;
+  width: 100px;
   height: 110px;
 }
 
@@ -579,10 +582,10 @@ a {
   display: flex;
   flex-direction: column;
   font-size: 12px;
-  line-height: 25px;
   font-weight: 300;
-  margin-left: 10px;
-  margin-right: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  line-height: 20px;
 }
 /*............................................................... Containeur activites............................................... */
 

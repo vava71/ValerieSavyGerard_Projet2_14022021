@@ -162,13 +162,15 @@
   }
 
   .title1 {
-    font-size: 20px;
+    margin-left: 15px;
     font-weight: bolder;
     margin-bottom: 25px;
     margin-top: 25px;
+    margin-left: 25px;
   }
   .accomodation {
     flex-direction: column;
+    align-items: center;
   }
   .picture1 {
     flex-wrap: wrap;
@@ -237,6 +239,7 @@
 
   .accomodationbis {
     flex-direction: column;
+    align-items: center;
   }
 
   .picture4 {
@@ -310,6 +313,7 @@
     font-size: 17px;
     margin-top: 55px;
     margin-bottom: 40px;
+    margin-left: 25px;
   }
 
   /*......................... Containeur populaires............................*/
@@ -327,6 +331,7 @@
   .title2 {
     font-size: 20px;
     font-weight: bolder;
+    margin-left: 25px;
   }
 
   .popular {
@@ -361,7 +366,7 @@
 
   .label2img {
     width: 170px;
-    height: 130px;
+    height: 150px;
     border-radius: 15px 0 0 15px;
     padding: 5px 5px 0 5px;
   }
@@ -400,13 +405,14 @@
     margin-top: 40px;
     margin-bottom: 25px;
     font-weight: bolder;
+    margin-left: 12px;
 
     font-size: 20px;
   }
+
   .activity {
     flex-direction: column;
-
-    margin-left: 15px;
+    align-items: center;
   }
   .label4 {
     width: 330px;
@@ -544,7 +550,7 @@
     flex-direction: column;
     margin-right: 200px;
     line-height: normal;
-    margin-left: 15px;
+    margin-left: 25px;
   }
 
   .findepage .details {
