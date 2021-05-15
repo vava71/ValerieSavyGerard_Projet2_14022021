@@ -548,14 +548,14 @@
   }
   .findepage {
     flex-direction: column;
-    margin-right: 200px;
+    margin-right: 180px;
     line-height: normal;
     margin-left: 25px;
   }
 
   .findepage .details {
     font-weight: 300;
-    font-size: 10px;
+    font-size: 15px;
     margin-bottom: 20px;
   }
 }
