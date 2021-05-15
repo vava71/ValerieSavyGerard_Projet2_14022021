@@ -170,7 +170,7 @@
   }
   .accomodation {
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
   }
   .picture1 {
     flex-wrap: wrap;
@@ -239,7 +239,7 @@
 
   .accomodationbis {
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
   }
 
   .picture4 {
@@ -548,7 +548,7 @@
   }
   .findepage {
     flex-direction: column;
-    margin-right: 180px;
+    margin-right: 130px;
     line-height: normal;
     margin-left: 25px;
   }
