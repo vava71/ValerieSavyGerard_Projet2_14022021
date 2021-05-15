@@ -29,11 +29,12 @@ a:hover {
 #logo {
   width: 109px;
   height: 48px;
+  margin-left: 25px;
 }
 
 header {
   font-size: 20px;
-
+  margin-left: 15px;
   margin-top: 65px;
 }
 .header {
@@ -221,6 +222,8 @@ input {
 .centralBlock {
   display: flex;
   justify-content: space-between;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .star i {
@@ -248,7 +251,7 @@ a {
 .title1 {
   font-size: 17px;
   font-weight: bolder;
-  margin-top: 25px;
+  margin-top: 30px;
   margin-left: 50px;
 }
 
@@ -477,17 +480,16 @@ a {
 .title2 {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 30px;
+  margin-top: 30px;
   font-size: 17px;
   font-weight: bolder;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 .popular {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
 }
 
 .label1 {
@@ -506,7 +508,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border-radius: 15px 0px 0 15px;
+  border-radius: 15px 0px 0px 15px;
   width: 37%;
   height: 110px;
 }
@@ -590,8 +592,9 @@ a {
 }
 
 .activites {
+  margin-left: 15px;
+  margin-right: 15px;
   margin-top: 40px;
-  margin-right: 50px;
 }
 .activity {
   display: flex;
@@ -607,7 +610,7 @@ a {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  width: 250px;
+  width: 220px;
   height: 330px;
 }
 
@@ -638,7 +641,7 @@ a {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  width: 250px;
+  width: 220px;
   height: 170px;
 }
 
@@ -664,7 +667,7 @@ a {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  width: 250px;
+  width: 220px;
   height: 130px;
   margin-top: 30px;
 }
@@ -691,7 +694,7 @@ a {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  width: 250px;
+  width: 220px;
   height: 330px;
 }
 .label6img {
@@ -722,7 +725,7 @@ a {
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   margin-bottom: 30px;
-  width: 250px;
+  width: 220px;
   height: 150px;
 }
 
@@ -748,7 +751,7 @@ a {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  width: 250px;
+  width: 220px;
   height: 150px;
 }
 
@@ -792,6 +795,7 @@ a {
   font-size: 15px;
   margin-bottom: 35px;
   margin-top: 20px;
+  margin-left: 15px;
 }
 
 .noshebergements {
@@ -800,6 +804,6 @@ a {
 }
 
 .assistance {
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 15px;
 }
