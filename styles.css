@@ -28,7 +28,6 @@ a:hover {
 
 header {
   font-size: 20px;
-  margin-left: 15px;
   margin-top: 65px;
 }
 .header {
@@ -93,8 +92,9 @@ header {
 }
 
 input {
-  border-radius: 0;
-  height: 50px;
+  border-right: none;
+  border-left: none;
+  height: 45px;
   border: 2px solid #f2f2f2;
   width: 210px;
 }
@@ -107,7 +107,7 @@ input {
   background-color: #0065fc;
   color: white;
   height: 50px;
-  width: 135px;
+  width: 120px;
   border: none;
   font-weight: bold;
 }
@@ -116,13 +116,10 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 15px 15px 15px 15px;
   background-color: #0065fc;
   color: white;
   font-size: 23px;
-  height: 50px;
-  width: 45px;
-  border: none;
   font-weight: bold;
 }
 
