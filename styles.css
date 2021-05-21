@@ -212,9 +212,7 @@ input {
 
 .centralBlock {
   display: flex;
-  justify-content: space-between;
-  margin-left: 50px;
-  margin-right: 25px;
+  margin: 0 25px 0 25px;
 }
 
 .star i {
@@ -242,13 +240,12 @@ a {
 .title1 {
   font-size: 17px;
   font-weight: bolder;
-  margin-top: 30px;
-  margin-left: 50px;
+  margin: 30px 0 0 50px;
 }
 
 .accomodation {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex: 1 1 0;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -261,13 +258,12 @@ a {
 .picture1 {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 20px;
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   padding: 5px;
-  width: 200px;
-  height: 170px;
+  width: 220px;
+  height: 150px;
 }
 
 .picture1img {
@@ -276,7 +272,6 @@ a {
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0 0;
-  margin-bottom: 5px;
   width: 100%;
   height: 100px;
 }
@@ -296,9 +291,9 @@ a {
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   padding: 5px;
-  margin-right: 20px;
-  width: 200px;
-  height: 170px;
+
+  width: 220px;
+  height: 150px;
 }
 
 .picture2img {
@@ -307,7 +302,7 @@ a {
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0 0;
-  margin-bottom: 5px;
+
   width: 100%;
   height: 100px;
 }
@@ -326,9 +321,9 @@ a {
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   padding: 5px;
-  margin-right: 20px;
-  width: 200px;
-  height: 170px;
+
+  width: 220px;
+  height: 150px;
 }
 
 .picture3img {
@@ -337,7 +332,7 @@ a {
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0 0;
-  margin-bottom: 5px;
+
   width: 100%;
   height: 100px;
 }
@@ -352,7 +347,7 @@ a {
 
 .accomodationbis {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .accomodationbis a {
@@ -366,9 +361,9 @@ a {
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   padding: 5px;
-  margin-right: 20px;
-  width: 200px;
-  height: 170px;
+
+  width: 220px;
+  height: 150px;
 }
 
 .picture4img {
@@ -397,9 +392,9 @@ a {
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   padding: 5px;
-  margin-right: 20px;
-  width: 200px;
-  height: 170px;
+
+  width: 220px;
+  height: 150px;
 }
 
 .picture5img {
@@ -426,9 +421,9 @@ a {
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   padding: 5px;
-  margin-right: 20px;
-  width: 200px;
-  height: 170px;
+
+  width: 220px;
+  height: 150px;
 }
 
 .picture6img {
@@ -452,8 +447,8 @@ a {
 
 .plus {
   font-size: 13px;
-  margin-bottom: 30px;
-  margin-top: 35px;
+  margin: 35px 0 30px 50px;
+  font-weight: bolder;
 }
 
 /*..................................................... Containeur populaires..................................................................... */
@@ -472,8 +467,7 @@ a {
 .title2 {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  bottom: 30px 0 30px 0;
   font-size: 17px;
   font-weight: bolder;
 }
@@ -580,17 +574,16 @@ a {
 
 .title3 {
   font-weight: bolder;
-  margin-bottom: 20px;
+  margin: 0 0 20px 50px;
 }
 
 .activites {
-  margin-left: 50px;
-  margin-right: 15px;
-  margin-top: 40px;
+  margin: 40px 15px 0 15px;
 }
 .activity {
   display: flex;
   justify-content: space-between;
+  margin: 0 25px 0 25px;
 }
 
 .activity a {
@@ -602,7 +595,7 @@ a {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  width: 220px;
+  width: 270px;
   height: 330px;
 }
 
@@ -633,7 +626,7 @@ a {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  width: 220px;
+  width: 270px;
   height: 170px;
 }
 
@@ -659,7 +652,7 @@ a {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  width: 220px;
+  width: 270px;
   height: 130px;
   margin-top: 30px;
 }
@@ -686,7 +679,7 @@ a {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  width: 220px;
+  width: 270px;
   height: 330px;
 }
 .label6img {
@@ -717,7 +710,7 @@ a {
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   margin-bottom: 30px;
-  width: 220px;
+  width: 270px;
   height: 150px;
 }
 
@@ -743,7 +736,7 @@ a {
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   margin-bottom: 30px;
-  width: 220px;
+  width: 270px;
   height: 150px;
 }
 

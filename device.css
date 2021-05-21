@@ -171,8 +171,9 @@
   }
   .accomodation {
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
   }
+
   .picture1 {
     flex-wrap: wrap;
     width: 330px;
@@ -240,7 +241,7 @@
 
   .accomodationbis {
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
   }
 
   .picture4 {
