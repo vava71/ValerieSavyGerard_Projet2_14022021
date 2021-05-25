@@ -1,9 +1,4 @@
 @media screen and (min-width: 1024px) {
-  Body {
-    margin: 0;
-    padding: 0;
-  }
-
   .loupe i {
     display: none;
   }
@@ -18,16 +13,13 @@
   }
 }
 
-/*...........................................max-width: 768px.................................................*/
+/*...........................................max-width: 1023px.................................................*/
 /*......................................................................*/
 @media screen and (max-width: 1023px) {
   a:hover {
     color: #0065fc;
   }
-  Body {
-    margin: 0;
-    padding: 0;
-  }
+
   /*.........................Header.........................................*/
 
   #logo {
@@ -58,7 +50,7 @@
 
   /*..............................Main..................................*/
 
-  .recherche {
+  .research {
     margin-left: 20px;
     margin-right: 15px;
   }
@@ -81,7 +73,7 @@
 
   .iconInputButton i {
     font-size: 19px;
-    height: 50px;
+    height: 45px;
     width: 60px;
   }
 
@@ -163,11 +155,8 @@
   }
 
   .title1 {
-    margin-left: 15px;
     font-weight: bolder;
-    margin-bottom: 25px;
-    margin-top: 25px;
-    margin-left: 25px;
+    margin: 25px 0 25px 15px;
   }
   .accomodation {
     flex-direction: column;
@@ -313,9 +302,7 @@
   .plus {
     display: flex;
     font-size: 17px;
-    margin-top: 55px;
-    margin-bottom: 40px;
-    margin-left: 25px;
+    margin: 55px 0 40px 25px;
   }
 
   /*......................... Containeur populaires............................*/
@@ -381,7 +368,6 @@
   }
   .label3 {
     width: 330px;
-
     margin-top: 20px;
   }
 
@@ -394,7 +380,6 @@
 
   .descriptive3 {
     flex-direction: column;
-
     font-size: 15px;
     line-height: 25px;
     font-weight: 300;
@@ -404,11 +389,8 @@
   /*...........................Containers activites........................*/
 
   .title3 {
-    margin-top: 40px;
-    margin-bottom: 25px;
     font-weight: bolder;
-    margin-left: 12px;
-
+    margin: 40px 0 25px 12px;
     font-size: 20px;
   }
 
@@ -462,8 +444,7 @@
   .label5img2 {
     width: 330px;
     height: 160px;
-    margin-bottom: 10px;
-    margin-top: 0;
+    margin: 0 0 10px 0;
   }
   .label5image2 {
     width: 330px;
@@ -550,9 +531,8 @@
   }
   .findepage {
     flex-direction: column;
-    margin-right: 130px;
     line-height: normal;
-    margin-left: 25px;
+    margin: 0 130px 0 25px;
   }
 
   .findepage .details {

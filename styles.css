@@ -1,5 +1,8 @@
 * {
   color: black;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 @font-face {
@@ -9,8 +12,6 @@
 
 body {
   font-family: "raleway", sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 a:hover {
@@ -53,20 +54,18 @@ header {
   display: flex;
   flex-flow: row-reverse;
   justify-content: space-around;
-  margin-left: 500px;
-  margin-top: -55px;
   font-size: 17px;
+  margin: -55px 0 0 500px;
 }
 
 /*..........................................................Main...........................................................................*/
 
-.recherche {
+.research {
   margin-left: 50px;
 }
 
 .presentation {
-  margin-top: 75px;
-  margin-bottom: 25px;
+  margin: 75px 0 25px 0;
 }
 
 /*..........................................................presentation..................................................................*/
@@ -94,7 +93,7 @@ header {
 input {
   border-right: none;
   border-left: none;
-  height: 45px;
+  height: 50px;
   border: 2px solid #f2f2f2;
   width: 210px;
 }
@@ -186,26 +185,30 @@ input {
   margin-right: 20px;
 }
 
-.resultat {
+.result {
   display: flex;
-  margin-top: 5px;
-  margin-bottom: 20px;
+  margin: 30px 0 30px 0;
 }
 
-.resultat .fas {
+.result .fas {
   background-color: white;
   color: #0065fc;
-  border-radius: 50%;
-  border: 2px solid #f2f2f2;
-  padding: 7px;
-  font-size: 10px;
-  margin-top: 10px;
-  margin-right: 10px;
+  border-radius: 50px;
+  border: 1px solid #f2f2f2;
+  width: 20px;
+  height: 20px;
+  font-size: 9px;
+  margin: -3px 10px 0 0;
+}
+.result i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.resultat h3 {
+.result h3 {
   font-weight: 200;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 /*..........................................................Bloc central............................................................................*/
@@ -247,8 +250,7 @@ a {
   display: flex;
   justify-content: space-evenly;
   flex: 1 1 0;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 30px 0 30px 0;
 }
 
 .accomodation a {
@@ -263,7 +265,7 @@ a {
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   padding: 5px;
   width: 220px;
-  height: 150px;
+  height: 160px;
 }
 
 .picture1img {
@@ -291,9 +293,8 @@ a {
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   padding: 5px;
-
   width: 220px;
-  height: 150px;
+  height: 160px;
 }
 
 .picture2img {
@@ -302,7 +303,6 @@ a {
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0 0;
-
   width: 100%;
   height: 100px;
 }
@@ -321,9 +321,8 @@ a {
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   padding: 5px;
-
   width: 220px;
-  height: 150px;
+  height: 160px;
 }
 
 .picture3img {
@@ -332,7 +331,6 @@ a {
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0 0;
-
   width: 100%;
   height: 100px;
 }
@@ -361,9 +359,8 @@ a {
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   padding: 5px;
-
   width: 220px;
-  height: 150px;
+  height: 160px;
 }
 
 .picture4img {
@@ -392,9 +389,8 @@ a {
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   padding: 5px;
-
   width: 220px;
-  height: 150px;
+  height: 160px;
 }
 
 .picture5img {
@@ -421,9 +417,8 @@ a {
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   padding: 5px;
-
   width: 220px;
-  height: 150px;
+  height: 160px;
 }
 
 .picture6img {
@@ -467,7 +462,7 @@ a {
 .title2 {
   display: flex;
   justify-content: space-around;
-  bottom: 30px 0 30px 0;
+  margin: 30px 0 30px 0;
   font-size: 17px;
   font-weight: bolder;
 }
@@ -504,9 +499,8 @@ a {
   flex-direction: column;
   font-size: 12px;
   font-weight: 300;
-  margin-left: 15px;
-  margin-right: 15px;
   line-height: 20px;
+  margin: 0 15px 0 15px;
 }
 
 .label2 {
@@ -535,8 +529,7 @@ a {
   flex-direction: column;
   font-size: 12px;
   font-weight: 300;
-  margin-left: 15px;
-  margin-right: 10px;
+  margin: 0 10px 0 15px;
   line-height: 20px;
 }
 
@@ -566,8 +559,7 @@ a {
   flex-direction: column;
   font-size: 12px;
   font-weight: 300;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin: 0 15px 0 15px;
   line-height: 20px;
 }
 /*............................................................... Containeur activites............................................... */
@@ -595,7 +587,7 @@ a {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  width: 270px;
+  width: 250px;
   height: 330px;
 }
 
@@ -626,7 +618,7 @@ a {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  width: 270px;
+  width: 250px;
   height: 170px;
 }
 
@@ -652,7 +644,7 @@ a {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  width: 270px;
+  width: 250px;
   height: 130px;
   margin-top: 30px;
 }
@@ -679,7 +671,7 @@ a {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  width: 270px;
+  width: 250px;
   height: 330px;
 }
 .label6img {
@@ -710,7 +702,7 @@ a {
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   margin-bottom: 30px;
-  width: 270px;
+  width: 250px;
   height: 150px;
 }
 
@@ -736,7 +728,7 @@ a {
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   margin-bottom: 30px;
-  width: 270px;
+  width: 250px;
   height: 150px;
 }
 
@@ -765,7 +757,6 @@ a {
   display: flex;
   justify-content: space-between;
   margin-right: 350px;
-  line-height: 3px;
 }
 
 .findepage .details {
@@ -778,17 +769,15 @@ a {
 
 .apropos {
   font-size: 15px;
-  margin-bottom: 35px;
-  margin-top: 20px;
-  margin-left: 50px;
+  margin: 20px 0 75px 50px;
 }
 
 .noshebergements {
-  margin-top: 20px;
+  margin: 20px 0 75px 0;
   font-size: 15px;
 }
 
 .assistance {
-  margin-top: 30px;
+  margin: 20px 0 75px 0;
   font-size: 15px;
 }
