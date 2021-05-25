@@ -765,19 +765,28 @@ a {
   flex-direction: column;
   font-weight: 300;
   font-size: 13px;
+  line-height: 30px;
 }
 
 .apropos {
   font-size: 15px;
-  margin: 20px 0 75px 50px;
+  margin: 50px 0 75px 50px;
 }
-
+.apropos H4 {
+  margin-bottom: 25px;
+}
 .noshebergements {
-  margin: 20px 0 75px 0;
+  margin: 50px 0 75px 0;
+  font-size: 15px;
+}
+.noshebergements H4 {
+  margin-bottom: 25px;
+}
+.assistance {
+  margin: 50px 0 75px 0;
   font-size: 15px;
 }
 
-.assistance {
-  margin: 20px 0 75px 0;
-  font-size: 15px;
+.assistance H4 {
+  margin-bottom: 25px;
 }
