@@ -775,15 +775,16 @@ a {
 .apropos H4 {
   margin-bottom: 25px;
 }
+
 .noshebergements {
-  margin: 50px 0 75px 0;
+  margin: 50px 0 75px 50px;
   font-size: 15px;
 }
 .noshebergements H4 {
   margin-bottom: 25px;
 }
 .assistance {
-  margin: 50px 0 75px 0;
+  margin: 50px 0 75px 50px;
   font-size: 15px;
 }
 
