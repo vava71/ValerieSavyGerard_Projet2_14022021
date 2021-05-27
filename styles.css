@@ -187,7 +187,7 @@ input {
 
 .result {
   display: flex;
-  margin: 30px 0 30px 0;
+  margin: 30px 0 30px -20px;
 }
 
 .result .fas {
@@ -241,9 +241,9 @@ a {
 }
 
 .title1 {
-  font-size: 17px;
+  font-size: 20px;
   font-weight: bolder;
-  margin: 30px 0 0 50px;
+  margin: 30px 0 0 30px;
 }
 
 .accomodation {
@@ -343,12 +343,12 @@ a {
   margin-left: 5px;
 }
 
-.accomodationbis {
+.accomodation2 {
   display: flex;
   justify-content: space-evenly;
 }
 
-.accomodationbis a {
+.accomodation2 a {
   text-decoration: none;
 }
 
@@ -442,7 +442,7 @@ a {
 
 .plus {
   font-size: 13px;
-  margin: 35px 0 30px 50px;
+  margin: 35px 0 30px 30px;
   font-weight: bolder;
 }
 
@@ -490,7 +490,7 @@ a {
   background-size: cover;
   background-position: center;
   border-radius: 15px 0px 0px 15px;
-  width: 100px;
+  width: 200px;
   height: 110px;
 }
 
@@ -520,7 +520,7 @@ a {
   background-size: cover;
   background-position: center;
   border-radius: 15px 0px 0px 15px;
-  width: 130px;
+  width: 230px;
   height: 110px;
 }
 
@@ -550,7 +550,7 @@ a {
   background-size: cover;
   background-position: center;
   border-radius: 15px 0px 0px 15px;
-  width: 100px;
+  width: 200px;
   height: 110px;
 }
 
@@ -566,16 +566,16 @@ a {
 
 .title3 {
   font-weight: bolder;
-  margin: 0 0 20px 50px;
+  margin: 0 0 20px 35px;
+  font-size: 20px;
 }
 
 .activites {
-  margin: 40px 15px 0 15px;
+  margin-top: 50px;
 }
 .activity {
   display: flex;
-  justify-content: space-between;
-  margin: 0 25px 0 25px;
+  justify-content: space-around;
 }
 
 .activity a {
