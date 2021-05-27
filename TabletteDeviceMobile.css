@@ -6,6 +6,7 @@
     justify-content: space-evenly;
   }
 }
+/*................................................*/
 
 @media screen and (min-width: 1024px) {
   .loupe i {
@@ -25,8 +26,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1230px) {
-}
+/*................................................*/
 
 @media screen and (max-width: 1023px) {
   a:hover {
@@ -197,7 +197,6 @@
   }
 
   .details1 {
-    align-items: flex-start;
     font-size: 15px;
     margin-left: 10px;
     line-height: 17px;

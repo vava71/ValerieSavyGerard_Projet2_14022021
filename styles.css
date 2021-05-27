@@ -278,7 +278,7 @@ a {
   height: 100px;
 }
 
-.details1 {
+.details1 p {
   display: flex;
   flex-direction: column;
   font-size: 12px;
@@ -306,7 +306,7 @@ a {
   width: 100%;
   height: 100px;
 }
-.details2 {
+.details2 p {
   display: flex;
   flex-direction: column;
   font-size: 12px;
@@ -335,7 +335,7 @@ a {
   height: 100px;
 }
 
-.details3 {
+.details3 p {
   display: flex;
   flex-direction: column;
   font-size: 12px;
@@ -374,7 +374,7 @@ a {
   height: 100px;
 }
 
-.details4 {
+.details4 p {
   display: flex;
   flex-direction: column;
   font-size: 12px;
@@ -403,7 +403,7 @@ a {
   width: 100%;
   height: 100px;
 }
-.details5 {
+.details5 p {
   display: flex;
   flex-direction: column;
   font-size: 12px;
@@ -432,7 +432,7 @@ a {
   height: 100px;
 }
 
-.details6 {
+.details6 p {
   display: flex;
   flex-direction: column;
   font-size: 12px;
