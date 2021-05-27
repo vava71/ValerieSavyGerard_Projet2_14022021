@@ -1,21 +1,3 @@
-@media screen and (min-width: 1024px) {
-  .loupe i {
-    display: none;
-  }
-
-  .header a {
-    display: none;
-  }
-
-  .selection {
-    display: none;
-  }
-
-  .selection a {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 1023px) {
   a:hover {
     color: #0065fc;
