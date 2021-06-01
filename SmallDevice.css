@@ -16,6 +16,75 @@
   }
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1210px) {
+  /*.........................hébergements à marseille.....................*/
+
+  .picture1 {
+    width: 190px;
+  }
+  .picture2 {
+    width: 190px;
+  }
+  .picture3 {
+    width: 190px;
+  }
+  .picture4 {
+    width: 190px;
+  }
+  .picture5 {
+    width: 190px;
+  }
+  .picture6 {
+    width: 190px;
+  }
+
+  /*......................... Containeur populaires............................*/
+  .label1 {
+    width: 290px;
+  }
+  .label2 {
+    width: 290px;
+  }
+  .label3 {
+    width: 290px;
+  }
+
+  /*..................................................... Containeur activites............................................... */
+  .label4 {
+    width: 220px;
+  }
+  .label5img1 {
+    width: 220px;
+  }
+
+  .label5img2 {
+    width: 220px;
+  }
+
+  .label6 {
+    width: 220px;
+  }
+
+  .label7img1 {
+    width: 220px;
+  }
+
+  .label7img2 {
+    width: 220px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 414px) {
+  .presentation h2 {
+    margin-right: 25px;
+    margin-bottom: 15px;
+  }
+
+  .result h3 {
+    font-size: 17px;
+  }
+}
+
 @media screen and (max-width: 1023px) {
   a:hover {
     color: #0065fc;
@@ -45,7 +114,7 @@
     margin-top: 55px;
   }
 
-  .selection2 {
+  .selectionSecond {
     display: none;
   }
 
@@ -161,7 +230,7 @@
 
   .title1 {
     font-weight: bolder;
-    margin: 25px 0 25px 15px;
+    margin: 25px 0 25px 40px;
   }
   .accomodation {
     flex-direction: column;
@@ -234,7 +303,7 @@
     line-height: 17px;
   }
 
-  .accomodation2 {
+  .accomodationSecond {
     flex-direction: column;
     align-items: center;
   }
@@ -308,7 +377,7 @@
   .plus {
     display: flex;
     font-size: 17px;
-    margin: 55px 0 40px 25px;
+    margin: 25px 0 0 40px;
   }
 
   /*......................... Containeur populaires............................*/
@@ -326,9 +395,9 @@
   }
 
   .title2 {
+    justify-content: space-around;
     font-size: 20px;
     font-weight: bolder;
-    margin-left: 25px;
   }
 
   .popular {
@@ -343,8 +412,8 @@
   }
 
   .label1img {
-    width: 150px;
-    height: 130px;
+    width: 170px;
+    height: 150px;
     border-radius: 15px 0 0 15px;
     padding: 5px 5px 0 5px;
   }
@@ -352,7 +421,7 @@
   .descriptive1 {
     font-weight: 300;
     font-size: 15px;
-    margin-left: 10px;
+    margin-left: 20px;
     line-height: 25px;
   }
 
@@ -362,7 +431,7 @@
   }
 
   .label2img {
-    width: 190px;
+    width: 240px;
     height: 150px;
     border-radius: 15px 0 0 15px;
     padding: 5px 5px 0 5px;
@@ -371,7 +440,7 @@
   .descriptive2 {
     font-weight: 300;
     font-size: 15px;
-    margin-left: 10px;
+    margin-left: 20px;
     line-height: 25px;
   }
   .label3 {
@@ -380,8 +449,8 @@
   }
 
   .label3img {
-    width: 150px;
-    height: 130px;
+    width: 170px;
+    height: 150px;
     border-radius: 15px 0 0 15px;
     padding: 5px 5px 0 5px;
   }
@@ -391,14 +460,14 @@
     font-size: 15px;
     line-height: 25px;
     font-weight: 300;
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
   /*...........................Containers activites........................*/
 
   .title3 {
     font-weight: bolder;
-    margin: 40px 0 25px 12px;
+    margin: 40px 0 25px 40px;
     font-size: 20px;
   }
 
