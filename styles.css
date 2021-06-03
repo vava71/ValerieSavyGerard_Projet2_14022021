@@ -4,23 +4,6 @@
   margin: 0;
   padding: 0;
 }
-@media screen and (min-width: 1024px) {
-  .loupe i {
-    display: none;
-  }
-
-  .header a {
-    display: none;
-  }
-
-  .selection {
-    display: none;
-  }
-
-  .selection a {
-    display: none;
-  }
-}
 
 @font-face {
   src: url("https://fonts.googleapis.com/css2? family = Raleway & display = swap");
