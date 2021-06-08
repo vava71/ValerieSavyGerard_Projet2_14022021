@@ -19,6 +19,7 @@
   #logo {
     width: 110px;
     height: 60px;
+    margin-left: -5px;
   }
 
   header {
@@ -34,8 +35,21 @@
   }
 
   .selection {
+    justify-content: space-around;
     font-size: 18px;
     margin-top: 55px;
+  }
+
+  .selection.hebergements {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #0065fc;
+  }
+
+  .selection.activites {
+    border-bottom: 3px solid #f2f2f2;
+    width: 100%;
+    text-align: center;
   }
 
   .selectionSecond {
