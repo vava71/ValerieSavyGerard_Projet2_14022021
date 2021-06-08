@@ -57,9 +57,7 @@ header {
   font-size: 17px;
   margin: -55px 0 0 500px;
 }
-.hebergement a {
-  color: #0065fc;
-}
+
 /*....................................................Main...........................................................................*/
 
 .research {
@@ -242,10 +240,9 @@ a {
   margin-right: 10px;
 }
 
-.title1 {
-  font-size: 20px;
+.containerAccomodation h3 {
   font-weight: bolder;
-  margin: 30px 0 0 30px;
+  margin: 30px 0 0 55px;
 }
 
 .accomodation {
@@ -474,7 +471,7 @@ a {
   margin-left: 10px;
 }
 
-.title2 {
+.containerPopular .p {
   display: flex;
   justify-content: space-around;
   margin: 30px 0 30px 0;
@@ -579,10 +576,9 @@ a {
 }
 /*.................................................... Containeur activites............................................... */
 
-.title3 {
+.activites h3 {
   font-weight: bolder;
   margin: 0 0 20px 35px;
-  font-size: 20px;
 }
 
 .activites {
