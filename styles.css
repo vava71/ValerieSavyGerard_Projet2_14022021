@@ -256,7 +256,7 @@ a {
   text-decoration: none;
 }
 
-.picture1 {
+.picture {
   display: flex;
   flex-wrap: wrap;
   background-color: white;
@@ -266,9 +266,18 @@ a {
   width: 220px;
   height: 160px;
 }
-.picture1 .star {
+.picture .star {
   margin-left: 5px;
 }
+
+.details p {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: 5px;
+}
+
 .picture1img {
   background-image: url(images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
   background-repeat: no-repeat;
@@ -277,28 +286,6 @@ a {
   border-radius: 15px 15px 0 0;
   width: 100%;
   height: 100px;
-}
-
-.details1 p {
-  display: flex;
-  flex-direction: column;
-  font-size: 12px;
-  font-weight: 300;
-  margin-left: 5px;
-}
-
-.picture2 {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: white;
-  border-radius: 20px 20px 20px 20px;
-  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  padding: 5px;
-  width: 220px;
-  height: 160px;
-}
-.picture2 .star {
-  margin-left: 5px;
 }
 
 .picture2img {
@@ -310,27 +297,7 @@ a {
   width: 100%;
   height: 100px;
 }
-.details2 p {
-  display: flex;
-  flex-direction: column;
-  font-size: 12px;
-  font-weight: 300;
-  margin-left: 5px;
-}
 
-.picture3 {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: white;
-  border-radius: 20px 20px 20px 20px;
-  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  padding: 5px;
-  width: 220px;
-  height: 160px;
-}
-.picture3 .star {
-  margin-left: 5px;
-}
 .picture3img {
   background-image: url(images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
   background-repeat: no-repeat;
@@ -339,14 +306,6 @@ a {
   border-radius: 15px 15px 0 0;
   width: 100%;
   height: 100px;
-}
-
-.details3 p {
-  display: flex;
-  flex-direction: column;
-  font-size: 12px;
-  font-weight: 300;
-  margin-left: 5px;
 }
 
 .accomodationSecond {
@@ -358,19 +317,6 @@ a {
   text-decoration: none;
 }
 
-.picture4 {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: white;
-  border-radius: 20px 20px 20px 20px;
-  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  padding: 5px;
-  width: 220px;
-  height: 160px;
-}
-.picture4 .star {
-  margin-left: 5px;
-}
 .picture4img {
   background-image: url(images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
   background-repeat: no-repeat;
@@ -382,27 +328,6 @@ a {
   height: 100px;
 }
 
-.details4 p {
-  display: flex;
-  flex-direction: column;
-  font-size: 12px;
-  font-weight: 300;
-  margin-left: 5px;
-}
-
-.picture5 {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: white;
-  border-radius: 20px 20px 20px 20px;
-  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  padding: 5px;
-  width: 220px;
-  height: 160px;
-}
-.picture5 .star {
-  margin-left: 5px;
-}
 .picture5img {
   background-image: url(images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
   background-repeat: no-repeat;
@@ -413,26 +338,7 @@ a {
   width: 100%;
   height: 100px;
 }
-.details5 p {
-  display: flex;
-  flex-direction: column;
-  font-size: 12px;
-  font-weight: 300;
-  margin-left: 5px;
-}
-.picture6 {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: white;
-  border-radius: 20px 20px 20px 20px;
-  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  padding: 5px;
-  width: 220px;
-  height: 160px;
-}
-.picture6 .star {
-  margin-left: 5px;
-}
+
 .picture6img {
   background-image: url(images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
   background-repeat: no-repeat;
@@ -442,14 +348,6 @@ a {
   margin-bottom: 5px;
   width: 100%;
   height: 100px;
-}
-
-.details6 p {
-  display: flex;
-  flex-direction: column;
-  font-size: 12px;
-  font-weight: 300;
-  margin-left: 5px;
 }
 
 .plus {
@@ -471,11 +369,10 @@ a {
   margin-left: 10px;
 }
 
-.containerPopular .p {
+h3 {
   display: flex;
   justify-content: space-around;
   margin: 30px 0 30px 0;
-
   font-weight: bolder;
 }
 
@@ -485,7 +382,7 @@ a {
   align-items: center;
 }
 
-.label1 {
+.label {
   display: flex;
   flex-direction: row;
   background-color: white;
@@ -494,6 +391,14 @@ a {
   margin-bottom: 30px;
   width: 320px;
   padding: 5px;
+}
+.descriptive {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 20px;
+  margin: 10px 15px 0 15px;
 }
 
 .label1img {
@@ -506,26 +411,6 @@ a {
   height: 110px;
 }
 
-.descriptive1 {
-  display: flex;
-  flex-direction: column;
-  font-size: 12px;
-  font-weight: 300;
-  line-height: 20px;
-  margin: 0 15px 0 15px;
-}
-
-.label2 {
-  display: flex;
-  flex-direction: row;
-  background-color: white;
-  border-radius: 20px 20px 20px 20px;
-  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  margin-bottom: 30px;
-  width: 320px;
-  padding: 5px;
-}
-
 .label2img {
   background-image: url(images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
   background-repeat: no-repeat;
@@ -534,26 +419,6 @@ a {
   border-radius: 15px 0px 0px 15px;
   width: 220px;
   height: 110px;
-}
-
-.descriptive2 {
-  display: flex;
-  flex-direction: column;
-  font-size: 12px;
-  font-weight: 300;
-  margin: 0 10px 0 15px;
-  line-height: 20px;
-}
-
-.label3 {
-  display: flex;
-  flex-direction: row;
-  background-color: white;
-  border-radius: 20px 20px 20px 20px;
-  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  margin-bottom: 30px;
-  width: 320px;
-  padding: 5px;
 }
 
 .label3img {
@@ -566,14 +431,6 @@ a {
   height: 110px;
 }
 
-.descriptive3 {
-  display: flex;
-  flex-direction: column;
-  font-size: 12px;
-  font-weight: 300;
-  margin: 0 15px 0 15px;
-  line-height: 20px;
-}
 /*.................................................... Containeur activites............................................... */
 
 .activites h3 {
@@ -613,7 +470,7 @@ a {
   height: 290px;
 }
 
-.descriptive4 {
+.description {
   font-size: 13px;
   margin-left: 15px;
 }
@@ -644,11 +501,6 @@ a {
   height: 130px;
 }
 
-.descriptive5 {
-  font-size: 13px;
-  margin-left: 15px;
-}
-
 .label5img2 {
   display: flex;
   flex-wrap: wrap;
@@ -671,11 +523,6 @@ a {
   height: 90px;
 }
 
-.descriptive5b {
-  font-size: 13px;
-  margin-left: 15px;
-}
-
 .label6 {
   display: flex;
   flex-wrap: wrap;
@@ -694,11 +541,6 @@ a {
   margin-bottom: 5px;
   width: 100%;
   height: 290px;
-}
-
-.descriptive6 {
-  font-size: 13px;
-  margin-left: 15px;
 }
 
 .label7 {
@@ -728,10 +570,6 @@ a {
   height: 110px;
 }
 
-.descriptive7 {
-  font-size: 13px;
-  margin-left: 15px;
-}
 .label7img2 {
   display: flex;
   flex-wrap: wrap;
@@ -752,11 +590,6 @@ a {
   margin-bottom: 5px;
   width: 100%;
   height: 110px;
-}
-
-.descriptive7b {
-  font-size: 13px;
-  margin-left: 15px;
 }
 
 .footer {
