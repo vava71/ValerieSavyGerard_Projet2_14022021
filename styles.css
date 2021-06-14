@@ -592,7 +592,7 @@ h3 {
   height: 110px;
 }
 
-.footer {
+footer {
   background-color: #f2f2f2;
   margin-top: 30px;
 }
@@ -611,7 +611,9 @@ h3 {
   font-size: 13px;
   line-height: 30px;
 }
-
+.apropos h4 {
+  margin-left: 5px;
+}
 .apropos {
   font-size: 15px;
   margin: 50px 0 75px 50px;
@@ -624,14 +626,14 @@ h3 {
   margin: 50px 0 75px 50px;
   font-size: 15px;
 }
-.noshebergements H4 {
-  margin-bottom: 25px;
+.noshebergements h4 {
+  margin: 0 0 25px 5px;
 }
 .assistance {
   margin: 50px 0 75px 50px;
   font-size: 15px;
 }
 
-.assistance H4 {
-  margin-bottom: 25px;
+.assistance h4 {
+  margin: 0 0 25px 5px;
 }
