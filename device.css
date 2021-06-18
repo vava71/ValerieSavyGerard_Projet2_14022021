@@ -70,12 +70,8 @@
     margin-top: 30px;
   }
 
-  .presentation h2 {
-    font-size: 23px;
-  }
-
   .presentation p {
-    font-size: 15px;
+    margin-top: 10px;
     font-weight: 300;
   }
 
@@ -145,6 +141,7 @@
     font-size: 13px;
   }
   .result {
+    align-items: flex-start;
     margin-left: 0;
   }
   .resultat .fas {
@@ -178,13 +175,17 @@
     margin-bottom: 10px;
   }
 
-  .picture1 {
+  .picture {
     flex-wrap: wrap;
     width: 330px;
     height: 180px;
     margin-bottom: 15px;
   }
-
+  .details {
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: 17px;
+  }
   .picture1 img {
     width: 330px;
     height: 110px;
@@ -193,38 +194,11 @@
     margin-bottom: 5px;
   }
 
-  .details1 {
-    font-size: 15px;
-    margin-left: 10px;
-    line-height: 17px;
-  }
-
-  .picture2 {
-    flex-wrap: wrap;
-    width: 330px;
-    height: 180px;
-    margin-bottom: 15px;
-  }
-
   .picture2 img {
     width: 330px;
     height: 110px;
     border-radius: 15px 15px 0 0;
     padding: 5px 5px 0 5px;
-    margin-bottom: 5px;
-  }
-
-  .details2 {
-    align-items: flex-start;
-    font-size: 15px;
-    margin-left: 10px;
-    line-height: 17px;
-  }
-
-  .picture3 {
-    flex-wrap: wrap;
-    width: 330px;
-    height: 180px;
     margin-bottom: 5px;
   }
 
@@ -236,23 +210,9 @@
     margin-bottom: 5px;
   }
 
-  .details3 {
-    align-items: flex-start;
-    font-size: 15px;
-    margin-left: 10px;
-    line-height: 17px;
-  }
-
   .accomodationSecond {
     flex-direction: column;
     align-items: center;
-  }
-
-  .picture4 {
-    flex-wrap: wrap;
-    width: 330px;
-    height: 180px;
-    margin-bottom: 15px;
   }
 
   .picture4 img {
@@ -263,20 +223,6 @@
     margin-bottom: 5px;
   }
 
-  .details4 {
-    align-items: flex-start;
-    font-size: 15px;
-    margin-left: 10px;
-    line-height: 17px;
-  }
-
-  .picture5 {
-    flex-wrap: wrap;
-    width: 330px;
-    height: 180px;
-    margin-bottom: 15px;
-  }
-
   .picture5 img {
     width: 330px;
     height: 110px;
@@ -285,33 +231,12 @@
     margin-bottom: 5px;
   }
 
-  .details5 {
-    align-items: flex-start;
-    font-size: 15px;
-    margin-left: 10px;
-    line-height: 17px;
-  }
-
-  .picture6 {
-    flex-wrap: wrap;
-    width: 330px;
-    height: 180px;
-    margin-bottom: 15px;
-  }
-
   .picture6 img {
     width: 330px;
     height: 110px;
     border-radius: 15px 15px 0 0;
     padding: 5px 5px 0 5px;
     margin-bottom: 5px;
-  }
-
-  .details6 {
-    align-items: flex-start;
-    font-size: 15px;
-    margin-left: 10px;
-    line-height: 17px;
   }
 
   .plus {
@@ -346,28 +271,21 @@
   .containerPopular .star {
     margin-top: 25px;
   }
-  .label1 {
+  .label {
     width: 330px;
     margin-top: 20px;
   }
-
-  .label1img {
-    width: 170px;
-    height: 150px;
-    border-radius: 15px 0 0 15px;
-    padding: 5px 5px 0 5px;
-  }
-
-  .descriptive1 {
+  .descriptive {
     font-weight: 300;
     font-size: 15px;
     margin-left: 20px;
     line-height: 25px;
   }
-
-  .label2 {
-    width: 330px;
-    margin-top: 20px;
+  .label1img {
+    width: 170px;
+    height: 150px;
+    border-radius: 15px 0 0 15px;
+    padding: 5px 5px 0 5px;
   }
 
   .label2img {
@@ -377,30 +295,11 @@
     padding: 5px 5px 0 5px;
   }
 
-  .descriptive2 {
-    font-weight: 300;
-    font-size: 15px;
-    margin-left: 20px;
-    line-height: 25px;
-  }
-  .label3 {
-    width: 330px;
-    margin-top: 20px;
-  }
-
   .label3img {
     width: 170px;
     height: 150px;
     border-radius: 15px 0 0 15px;
     padding: 5px 5px 0 5px;
-  }
-
-  .descriptive3 {
-    flex-direction: column;
-    font-size: 15px;
-    line-height: 25px;
-    font-weight: 300;
-    margin-left: 20px;
   }
 
   /*...........................Containers activites........................*/
@@ -415,7 +314,13 @@
     flex-direction: column;
     align-items: center;
   }
-  .label4 {
+  .description {
+    flex-direction: column;
+    font-size: 15px;
+    margin-left: 15px;
+    line-height: 17px;
+  }
+  .labelSecond {
     width: 330px;
     height: 160px;
     margin-bottom: 20px;
@@ -427,13 +332,6 @@
     border-radius: 15px 15px 0 0;
     padding: 5px 5px 0 5px;
     margin-bottom: 5px;
-  }
-
-  .descriptive4 {
-    flex-direction: column;
-    font-size: 15px;
-    margin-left: 10px;
-    line-height: 17px;
   }
 
   .label5 {
@@ -451,12 +349,6 @@
     padding: 5px 5px 0 5px;
   }
 
-  .descriptive5 {
-    flex-direction: column;
-    font-size: 15px;
-    margin-left: 10px;
-    line-height: 17px;
-  }
   .label5img2 {
     width: 330px;
     height: 160px;
@@ -470,13 +362,7 @@
     margin-bottom: 5px;
   }
 
-  .descriptive5b {
-    flex-direction: column;
-    font-size: 15px;
-    margin-left: 10px;
-    line-height: 17px;
-  }
-  .label6 {
+  .labelSecond {
     width: 330px;
     height: 160px;
     margin-bottom: 20px;
@@ -488,13 +374,6 @@
     border-radius: 15px 15px 0 0;
     padding: 5px 5px 0 5px;
     margin-bottom: 5px;
-  }
-
-  .descriptive6 {
-    flex-direction: column;
-    font-size: 15px;
-    margin-left: 10px;
-    line-height: 17px;
   }
 
   .label7 {
@@ -513,12 +392,6 @@
     margin-bottom: 5px;
   }
 
-  .descriptive7 {
-    flex-direction: column;
-    font-size: 15px;
-    margin-left: 10px;
-    line-height: 17px;
-  }
   .label7img2 {
     width: 330px;
     height: 160px;
@@ -530,13 +403,6 @@
     border-radius: 15px 15px 0 0;
     padding: 5px 5px 0 5px;
     margin-bottom: 5px;
-  }
-
-  .descriptive7b {
-    flex-direction: column;
-    font-size: 15px;
-    margin-left: 10px;
-    line-height: 17px;
   }
 
   .footer {
@@ -558,7 +424,7 @@
   .findepage .details {
     font-weight: 300;
     font-size: 15px;
-    margin-bottom: 20px;
+    margin: 0 0 20px 0;
   }
 }
 
@@ -583,38 +449,17 @@
 @media screen and (min-width: 1024px) and (max-width: 1210px) {
   /*.........................hébergements à marseille.....................*/
 
-  .picture1 {
-    width: 190px;
-  }
-  .picture2 {
-    width: 190px;
-  }
-  .picture3 {
-    width: 190px;
-  }
-  .picture4 {
-    width: 190px;
-  }
-  .picture5 {
-    width: 190px;
-  }
-  .picture6 {
+  .picture {
     width: 190px;
   }
 
   /*......................... Containeur populaires............................*/
-  .label1 {
-    width: 290px;
-  }
-  .label2 {
-    width: 290px;
-  }
-  .label3 {
+  .label {
     width: 290px;
   }
 
   /*..................................................... Containeur activites............................................... */
-  .label4 {
+  .labelSecond {
     width: 220px;
   }
   .label5img1 {
@@ -622,10 +467,6 @@
   }
 
   .label5img2 {
-    width: 220px;
-  }
-
-  .label6 {
     width: 220px;
   }
 

@@ -187,6 +187,7 @@ input {
 
 .result {
   display: flex;
+  align-items: center;
   margin: 30px 0 30px -20px;
 }
 
@@ -241,8 +242,7 @@ a {
 }
 
 .containerAccomodation h3 {
-  font-weight: bolder;
-  margin: 30px 0 0 55px;
+  margin: 30px 0 0 40px;
 }
 
 .accomodation {
@@ -358,10 +358,6 @@ a {
 
 /*............................................ Containeur populaires..................................................................... */
 
-.containerPopular a {
-  text-decoration: none;
-}
-
 .containerPopular {
   flex: 1;
   background-color: #f2f2f2;
@@ -369,13 +365,14 @@ a {
   margin-left: 10px;
 }
 
-h3 {
+.containerPopular h3 {
   display: flex;
-  justify-content: space-around;
-  margin: 30px 0 30px 0;
-  font-weight: bolder;
+  justify-content: space-between;
+  margin: 30px 0 30px 70px;
 }
-
+.popular a {
+  text-decoration: none;
+}
 .popular {
   display: flex;
   flex-direction: column;
@@ -449,7 +446,7 @@ h3 {
 .activity a {
   text-decoration: none;
 }
-.label4 {
+.labelSecond {
   display: flex;
   flex-wrap: wrap;
   background-color: white;
@@ -523,15 +520,6 @@ h3 {
   height: 90px;
 }
 
-.label6 {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: white;
-  border-radius: 20px 20px 20px 20px;
-  box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
-  width: 250px;
-  height: 330px;
-}
 .label6img {
   background-image: url(images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
   background-repeat: no-repeat;
