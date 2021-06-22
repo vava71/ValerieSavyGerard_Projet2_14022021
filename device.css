@@ -39,19 +39,11 @@
     font-size: 18px;
     margin-top: 55px;
   }
-
-  .selection.hebergements {
+  .selection a {
     text-align: center;
     padding-bottom: 20px;
-    color: #0065fc;
-    border-bottom: 3px solid #0065fc;
+    border-bottom: 3px solid;
     width: 100%;
-  }
-
-  .selection.activites {
-    border-bottom: 3px solid #f2f2f2;
-    width: 100%;
-    text-align: center;
   }
 
   .selectionSecond {
@@ -108,7 +100,7 @@
 
   .filters a {
     align-items: center;
-    padding-left: 10px;
+    padding-left: 5px;
   }
 
   .title {
@@ -120,7 +112,7 @@
   .economy {
     width: 160px;
     margin-bottom: 20px;
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .family {

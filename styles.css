@@ -365,10 +365,10 @@ a {
   margin-left: 10px;
 }
 
-.containerPopular h3 {
+.titre {
   display: flex;
   justify-content: space-between;
-  margin: 30px 0 30px 70px;
+  margin: 30px 30px 30px 30px;
 }
 .popular a {
   text-decoration: none;
