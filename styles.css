@@ -371,7 +371,7 @@ a {
 .titre {
   display: flex;
   justify-content: space-between;
-  margin: 30px 30px 30px 30px;
+  margin: 30px 30px 30px 60px;
 }
 .popular a {
   text-decoration: none;
@@ -437,7 +437,7 @@ a {
 
 .activites h3 {
   font-weight: bolder;
-  margin: 0 0 20px 35px;
+  margin: 0 0 20px 60px;
 }
 
 .activites {
