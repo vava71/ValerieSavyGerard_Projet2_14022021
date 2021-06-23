@@ -169,7 +169,7 @@
 
   .picture {
     flex-wrap: wrap;
-    width: 330px;
+    width: 290px;
     height: 180px;
     margin-bottom: 15px;
   }
@@ -178,23 +178,18 @@
     margin-left: 10px;
     line-height: 17px;
   }
-  .picture1 img {
-    width: 330px;
-    height: 110px;
-    border-radius: 15px 15px 0 0;
-    padding: 5px 5px 0 5px;
-    margin-bottom: 5px;
-  }
-
-  .picture2 img {
-    width: 330px;
-    height: 110px;
-    border-radius: 15px 15px 0 0;
-    padding: 5px 5px 0 5px;
-    margin-bottom: 5px;
-  }
-
-  .picture3 img {
+  .picture1
+    img
+    .picture2
+    img
+    .picture3
+    img
+    .picture4
+    img
+    .picture5
+    img
+    .picture6
+    img {
     width: 330px;
     height: 110px;
     border-radius: 15px 15px 0 0;
@@ -205,30 +200,6 @@
   .accomodationSecond {
     flex-direction: column;
     align-items: center;
-  }
-
-  .picture4 img {
-    width: 330px;
-    height: 110px;
-    border-radius: 15px 15px 0 0;
-    padding: 5px 5px 0 5px;
-    margin-bottom: 5px;
-  }
-
-  .picture5 img {
-    width: 330px;
-    height: 110px;
-    border-radius: 15px 15px 0 0;
-    padding: 5px 5px 0 5px;
-    margin-bottom: 5px;
-  }
-
-  .picture6 img {
-    width: 330px;
-    height: 110px;
-    border-radius: 15px 15px 0 0;
-    padding: 5px 5px 0 5px;
-    margin-bottom: 5px;
   }
 
   .plus {
@@ -261,37 +232,17 @@
     flex-direction: column;
   }
   .containerPopular .star {
-    margin-top: 25px;
+    padding-top: 35px;
   }
   .label {
-    width: 330px;
+    width: 290px;
     margin-top: 20px;
   }
+
   .descriptive {
     font-weight: 300;
-    font-size: 15px;
-    margin-left: 20px;
-    line-height: 25px;
-  }
-  .label1img {
-    width: 170px;
-    height: 150px;
-    border-radius: 15px 0 0 15px;
-    padding: 5px 5px 0 5px;
-  }
-
-  .label2img {
-    width: 240px;
-    height: 150px;
-    border-radius: 15px 0 0 15px;
-    padding: 5px 5px 0 5px;
-  }
-
-  .label3img {
-    width: 170px;
-    height: 150px;
-    border-radius: 15px 0 0 15px;
-    padding: 5px 5px 0 5px;
+    font-size: 13px;
+    line-height: 20px;
   }
 
   /*...........................Containers activites........................*/
@@ -313,13 +264,13 @@
     line-height: 17px;
   }
   .labelSecond {
-    width: 330px;
+    width: 290px;
     height: 160px;
     margin-bottom: 20px;
   }
 
   .label4img {
-    width: 330px;
+    width: 290px;
     height: 110px;
     border-radius: 15px 15px 0 0;
     padding: 5px 5px 0 5px;
@@ -330,24 +281,24 @@
     flex-direction: column;
   }
   .label5img1 {
-    width: 330px;
+    width: 290px;
     height: 160px;
     margin-bottom: -5px;
   }
   .label5image1 {
-    width: 330px;
+    width: 290px;
     height: 110px;
     border-radius: 15px 15px 0 0;
     padding: 5px 5px 0 5px;
   }
 
   .label5img2 {
-    width: 330px;
+    width: 290px;
     height: 160px;
     margin-bottom: 20px;
   }
   .label5image2 {
-    width: 330px;
+    width: 290px;
     height: 110px;
     border-radius: 15px 15px 0 0;
     padding: 5px 5px 0 5px;
@@ -355,13 +306,13 @@
   }
 
   .labelSecond {
-    width: 330px;
+    width: 290px;
     height: 160px;
     margin-bottom: 20px;
   }
 
   .label6img {
-    width: 330px;
+    width: 290px;
     height: 110px;
     border-radius: 15px 15px 0 0;
     padding: 5px 5px 0 5px;
@@ -372,12 +323,12 @@
     flex-direction: column;
   }
   .label7img1 {
-    width: 330px;
+    width: 290px;
     height: 160px;
     margin-bottom: 20px;
   }
   .label7image1 {
-    width: 330px;
+    width: 290px;
     height: 110px;
     border-radius: 15px 15px 0 0;
     padding: 5px 5px 0 5px;
@@ -385,12 +336,12 @@
   }
 
   .label7img2 {
-    width: 330px;
+    width: 290px;
     height: 160px;
     margin-bottom: 20px;
   }
   .label7image2 {
-    width: 330px;
+    width: 290px;
     height: 110px;
     border-radius: 15px 15px 0 0;
     padding: 5px 5px 0 5px;

@@ -364,6 +364,9 @@ a {
   border-radius: 10px 10px 10px 10px;
   margin-left: 10px;
 }
+.containerPopular .star {
+  padding-top: 30px;
+}
 
 .titre {
   display: flex;
@@ -387,6 +390,8 @@ a {
   box-shadow: 5px 3px 28px -7px rgba(0, 0, 0, 0.36);
   margin-bottom: 30px;
   width: 320px;
+
+  height: 140px;
   padding: 5px;
 }
 .descriptive {
@@ -405,7 +410,7 @@ a {
   background-position: center;
   border-radius: 15px 0px 0px 15px;
   width: 150px;
-  height: 110px;
+  height: 130px;
 }
 
 .label2img {
@@ -415,7 +420,7 @@ a {
   background-position: center;
   border-radius: 15px 0px 0px 15px;
   width: 220px;
-  height: 110px;
+  height: 130px;
 }
 
 .label3img {
@@ -425,7 +430,7 @@ a {
   background-position: center;
   border-radius: 15px 0px 0px 15px;
   width: 150px;
-  height: 110px;
+  height: 130px;
 }
 
 /*.................................................... Containeur activites............................................... */
@@ -603,7 +608,7 @@ footer {
   margin-left: 5px;
 }
 .apropos {
-  font-size: 15px;
+  font-size: 14px;
   margin: 50px 0 75px 50px;
 }
 .apropos H4 {
@@ -612,14 +617,14 @@ footer {
 
 .noshebergements {
   margin: 50px 0 75px 50px;
-  font-size: 15px;
+  font-size: 14px;
 }
 .noshebergements h4 {
   margin: 0 0 25px 5px;
 }
 .assistance {
   margin: 50px 0 75px 50px;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .assistance h4 {
